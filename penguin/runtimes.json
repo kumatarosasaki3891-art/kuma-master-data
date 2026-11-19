@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-19T00:00:00Z",
+  "runtimes": [
+    {
+      "id": "nginx",
+      "displayName": "nginx",
+      "source": "https://endoflife.date/api/nginx.json",
+      "branches": [
+        {
+          "branch": "1.31",
+          "latest": "1.31.9",
+          "eol": null,
+          "support": true
+        },
+        {
+          "branch": "1.30",
+          "latest": "1.30.7",
+          "eol": null,
+          "support": true
+        },
+        {
+          "branch": "1.28",
+          "latest": "1.28.0",
+          "eol": "2026-04-08",
+          "support": false
+        },
+        {
+          "branch": "1.26",
+          "latest": "1.26.3",
+          "eol": "2025-04-23",
+          "support": false
+        }
+      ],
+      "advisories": [
+        {
+          "id": "CVE-2026-123007",
+          "relatedIds": [
+            "CVE-2026-123633"
+          ],
+          "severity": "critical",
+          "summary": "HTTP/2 有効時に、未認証でリモートコード実行されうる",
+          "affectedRanges": [
+            {
+              "from": "1.9.5",
+              "toExclusive": "1.30.7"
+            },
+            {
+              "from": "1.31.0",
+              "toExclusive": "1.31.9"
+            }
+          ],
+          "fixedIn": [
+            "1.30.7",
+            "1.31.9"
+          ],
+          "requires": "http2",
+          "source": "https://nginx.org/en/security_advisories.html",
+          "publishedAt": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "php",
+      "displayName": "PHP",
+      "source": "https://endoflife.date/api/php.json",
+      "branches": [
+        {
+          "branch": "8.4",
+          "latest": "8.4.5",
+          "eol": "2028-12-31",
+          "support": true
+        },
+        {
+          "branch": "8.3",
+          "latest": "8.3.19",
+          "eol": "2027-12-31",
+          "support": true
+        },
+        {
+          "branch": "8.2",
+          "latest": "8.2.28",
+          "eol": "2026-12-31",
+          "support": true
+        },
+        {
+          "branch": "8.1",
+          "latest": "8.1.31",
+          "eol": "2025-12-31",
+          "support": false
+        },
+        {
+          "branch": "8.0",
+          "latest": "8.0.30",
+          "eol": "2023-11-26",
+          "support": false
+        }
+      ]
+    },
+    {
+      "id": "mysql",
+      "displayName": "MySQL",
+      "source": "https://endoflife.date/api/mysql.json",
+      "branches": [
+        {
+          "branch": "8.4",
+          "latest": "8.4.4",
+          "eol": "2032-04-30",
+          "support": true
+        },
+        {
+          "branch": "8.0",
+          "latest": "8.0.41",
+          "eol": "2026-04-30",
+          "support": false
+        },
+        {
+          "branch": "5.7",
+          "latest": "5.7.44",
+          "eol": "2023-10-31",
+          "support": false
+        }
+      ]
+    },
+    {
+      "id": "mariadb",
+      "displayName": "MariaDB",
+      "source": "https://endoflife.date/api/mariadb.json",
+      "branches": [
+        {
+          "branch": "11.4",
+          "latest": "11.4.5",
+          "eol": "2029-05-29",
+          "support": true
+        },
+        {
+          "branch": "10.11",
+          "latest": "10.11.11",
+          "eol": "2028-02-16",
+          "support": true
+        },
+        {
+          "branch": "10.6",
+          "latest": "10.6.21",
+          "eol": "2026-07-06",
+          "support": false
+        },
+        {
+          "branch": "10.5",
+          "latest": "10.5.28",
+          "eol": "2025-06-24",
+          "support": false
+        }
+      ]
+    },
+    {
+      "id": "postgres",
+      "displayName": "PostgreSQL",
+      "source": "https://endoflife.date/api/postgresql.json",
+      "branches": [
+        {
+          "branch": "17",
+          "latest": "17.4",
+          "eol": "2029-11-08",
+          "support": true
+        },
+        {
+          "branch": "16",
+          "latest": "16.8",
+          "eol": "2028-11-09",
+          "support": true
+        },
+        {
+          "branch": "15",
+          "latest": "15.12",
+          "eol": "2027-11-11",
+          "support": true
+        },
+        {
+          "branch": "14",
+          "latest": "14.17",
+          "eol": "2026-11-12",
+          "support": false
+        },
+        {
+          "branch": "13",
+          "latest": "13.20",
+          "eol": "2025-11-13",
+          "support": false
+        }
+      ]
+    },
+    {
+      "id": "redis",
+      "displayName": "Redis",
+      "source": "https://endoflife.date/api/redis.json",
+      "branches": [
+        {
+          "branch": "7.4",
+          "latest": "7.4.2",
+          "eol": null,
+          "support": true
+        },
+        {
+          "branch": "7.2",
+          "latest": "7.2.7",
+          "eol": null,
+          "support": true
+        },
+        {
+          "branch": "6.2",
+          "latest": "6.2.17",
+          "eol": "2025-02-28",
+          "support": false
+        }
+      ]
+    },
+    {
+      "id": "httpd",
+      "displayName": "Apache httpd",
+      "source": "https://endoflife.date/api/apache.json",
+      "branches": [
+        {
+          "branch": "2.4",
+          "latest": "2.4.63",
+          "eol": null,
+          "support": true
+        },
+        {
+          "branch": "2.2",
+          "latest": "2.2.34",
+          "eol": "2017-07-11",
+          "support": false
+        }
+      ]
+    }
+  ]
+}

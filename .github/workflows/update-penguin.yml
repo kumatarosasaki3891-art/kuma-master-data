@@ -1,0 +1,53 @@
+name: Update penguin master data
+
+on:
+  schedule:
+    # 毎週月曜 03:00 UTC (12:00 JST)
+    - cron: '0 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-penguin:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run update script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/update_penguin.py --pr-body-path "${{ runner.temp }}/pr_body.md"
+          echo "TODAY=$(date -u +%Y-%m-%d)" >> "$GITHUB_ENV"
+
+      - name: Check for changes
+        id: git-diff
+        run: |
+          if git diff --quiet -- penguin/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create Pull Request
+        if: steps.git-diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore(data): penguin 定義データ更新 (${{ env.TODAY }})"
+          title: "chore(data): penguin 定義データ更新 (${{ env.TODAY }})"
+          body-path: ${{ runner.temp }}/pr_body.md
+          branch: chore/update-penguin-data
+          delete-branch: true
+          labels: |
+            master-data
+            automated

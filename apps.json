@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-19T00:00:00Z",
+  "apps": [
+    {
+      "id": "simple-docker-manager",
+      "displayName": "簡単コンテナ管理",
+      "latest": "1.0.0",
+      "storeUrl": "https://sites.google.com/view/kuma-applications/"
+    },
+    {
+      "id": "simple-service-diagnosis",
+      "displayName": "簡単サービス診断",
+      "latest": "1.0.0",
+      "storeUrl": "https://sites.google.com/view/kuma-applications/"
+    }
+  ]
+}
