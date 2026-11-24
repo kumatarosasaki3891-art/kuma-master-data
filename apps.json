@@ -5,19 +5,19 @@
     {
       "id": "simple-docker-manager",
       "displayName": "簡単コンテナ管理",
-      "latest": "1.0.0",
+      "latest": "1.2.0",
       "storeUrl": "https://sites.google.com/view/kuma-applications/"
     },
     {
       "id": "simple-service-diagnosis",
       "displayName": "簡単サービス診断",
-      "latest": "1.0.0",
+      "latest": "1.1.0",
       "storeUrl": "https://sites.google.com/view/kuma-applications/"
     },
     {
       "id": "easy-room-storage",
       "displayName": "簡単収納管理",
-      "latest": "1.0.0",
+      "latest": "1.0.2",
       "storeUrl": "https://sites.google.com/view/kuma-applications/"
     }
   ]
