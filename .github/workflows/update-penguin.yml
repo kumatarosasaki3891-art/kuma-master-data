@@ -1,5 +1,8 @@
 name: Update penguin master data
 
+env:
+  GEMINI_API_KEY: ${{ secrets.GEMINIAPI }}
+
 on:
   schedule:
     # 毎週月曜 03:00 UTC (12:00 JST)
