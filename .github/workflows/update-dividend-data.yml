@@ -1,0 +1,88 @@
+name: Update dividend master data
+
+on:
+  schedule:
+    # 毎週土曜日 06:00 JST (金曜 21:00 UTC)
+    - cron: '0 21 * * 5'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (ファイル更新・コミットを行わず動作確認)'
+        required: false
+        type: boolean
+        default: false
+      limit:
+        description: 'テスト用に処理する先頭銘柄数（空欄で全銘柄）'
+        required: false
+        type: string
+        default: ''
+
+concurrency:
+  group: update-dividend-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-dividend-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: scripts/requirements-dividend.txt
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install -r scripts/requirements-dividend.txt
+
+      - name: Run Gemini dividend update script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINIAPI }}
+          INPUT_DRY_RUN: ${{ inputs.dry_run }}
+          INPUT_LIMIT: ${{ inputs.limit }}
+        run: |
+          if [ -z "${GEMINI_API_KEY:-}" ]; then
+            echo "::error::Secret GEMINIAPI is not configured."
+            exit 1
+          fi
+
+          ARGS=(--chunk-size 25 --sleep-seconds 4 --summary-path "$GITHUB_STEP_SUMMARY")
+          if [ "$INPUT_DRY_RUN" = "true" ]; then
+            ARGS+=(--dry-run)
+          fi
+          if [ -n "$INPUT_LIMIT" ]; then
+            if ! [[ "$INPUT_LIMIT" =~ ^[0-9]+$ ]]; then
+              echo "::error::limit input must be a positive integer."
+              exit 1
+            fi
+            ARGS+=(--limit "$INPUT_LIMIT")
+          fi
+
+          python3 scripts/update_dividends.py "${ARGS[@]}"
+
+      - name: Check for dividend JSON changes
+        id: git-diff
+        run: |
+          if [ -n "$(git status --porcelain -- dividend/dividend_master.json dividend/meta.json)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push updated dividend master JSON
+        if: steps.git-diff.outputs.changed == 'true' && inputs.dry_run != true
+        run: |
+          TODAY_JST=$(TZ=Asia/Tokyo date +%Y-%m-%d)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dividend/dividend_master.json dividend/meta.json
+          git commit -m "chore(dividend): 配当マスターデータ自動更新 (${TODAY_JST})"
+          git push
