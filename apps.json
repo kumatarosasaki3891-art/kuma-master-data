@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T13:05:00Z",
+  "updatedAt": "2026-11-25T12:15:00Z",
   "apps": [
     {
       "id": "simple-docker-manager",
@@ -17,7 +17,7 @@
     {
       "id": "easy-room-storage",
       "displayName": "簡単収納管理",
-      "latest": "1.0.2",
+      "latest": "1.0.3",
       "storeUrl": "https://sites.google.com/view/kuma-applications/"
     },
     {
