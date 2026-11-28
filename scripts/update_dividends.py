@@ -31,7 +31,7 @@ TICKERS_PATH = ROOT_DIR / "scripts" / "dividend_tickers.json"
 MASTER_PATH = ROOT_DIR / "dividend" / "dividend_master.json"
 META_PATH = ROOT_DIR / "dividend" / "meta.json"
 
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-3.8-flash"
 SOURCE_NOTE_JA = (
     "本データはAIによる自動収集・集計結果であり、正確性を保証するものではありません。"
     "投資判断や確定申告の際は必ず各企業のIR情報・証券会社の報告書をご確認ください。"
