@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T12:50:00Z",
+  "updatedAt": "2026-11-28T02:18:04Z",
   "schema_version": "1.0",
-  "updated_at": "2026-11-24T21:50:00+09:00",
+  "updated_at": "2026-11-28T11:18:04+09:00",
   "source_note": "本データはAIによる自動収集・集計結果であり、正確性を保証するものではありません。投資判断や確定申告の際は必ず各企業のIR情報・証券会社の報告書をご確認ください。",
   "source_note_en": "This data is automatically collected and aggregated by AI and accuracy is not guaranteed. Please always verify with official corporate IR disclosures and brokerage statements before making investment decisions or filing taxes.",
-  "total_stocks": 154,
-  "jp_stocks": 109,
-  "us_stocks": 45,
+  "total_stocks": 245,
+  "jp_stocks": 177,
+  "us_stocks": 68,
   "data_file": "dividend/dividend_master.json"
 }

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T12:50:00Z",
+  "updatedAt": "2026-11-28T02:18:04Z",
   "meta": {
     "schema_version": "1.0",
-    "updated_at": "2026-11-24T21:50:00+09:00",
+    "updated_at": "2026-11-28T11:18:04+09:00",
     "source_note": "本データはAIによる自動収集・集計結果であり、正確性を保証するものではありません。投資判断や確定申告の際は必ず各企業のIR情報・証券会社の報告書をご確認ください。",
     "source_note_en": "This data is automatically collected and aggregated by AI and accuracy is not guaranteed. Please always verify with official corporate IR disclosures and brokerage statements before making investment decisions or filing taxes.",
-    "total_stocks": 154
+    "total_stocks": 245
   },
   "stocks": [
     {
@@ -18,10 +18,16 @@
       "annual_dividend_forecast": 90.0,
       "currency": "JPY",
       "dividend_yield_percent": 3.3,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [5, 11],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        5,
+        11
+      ],
       "consecutive_years": 5,
-      "ai_summary_ja": "安定的・継続的な増配を重視する還元方針。潤沢なキャッシュフローを背景に堅調な配当推移を維持。"
+      "ai_summary_ja": "安定的な増配を継続。株主資本配当率（DOE）や総還元性向を意識し、自社株買いも含めた機動的な株主還元を推進。"
     },
     {
       "ticker": "7267.T",
@@ -32,10 +38,16 @@
       "annual_dividend_forecast": 68.0,
       "currency": "JPY",
       "dividend_yield_percent": 4.5,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 11],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        11
+      ],
       "consecutive_years": 4,
-      "ai_summary_ja": "DOE（株主資本配当率）指標を導入し、業績変動下でも安定配当と自社株買いを組み合わせた還元姿勢。"
+      "ai_summary_ja": "配当性向30%を目安に安定的かつ継続的な増配方針を掲げる。自社株買いにも積極的で高い総還元性向を維持。"
     },
     {
       "ticker": "7270.T",
@@ -46,10 +58,16 @@
       "annual_dividend_forecast": 96.0,
       "currency": "JPY",
       "dividend_yield_percent": 3.7,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 3,
-      "ai_summary_ja": "北米市場の販売堅調を背景に総還元性向40%以上を目安とし、増配と機動的自社株買いを実施。"
+      "ai_summary_ja": "配当性向の目安を意識しつつ業績動向に応じた配当を実施。北米市場の好調を背景に安定した配当水準を確保。"
     },
     {
       "ticker": "6902.T",
@@ -60,10 +78,16 @@
       "annual_dividend_forecast": 64.0,
       "currency": "JPY",
       "dividend_yield_percent": 2.9,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 11],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        11
+      ],
       "consecutive_years": 4,
-      "ai_summary_ja": "DOEベースでの安定的な増配を継続。電動化・車載半導体分野の収益成長に伴い株主還元を強化中。"
+      "ai_summary_ja": "DOE（株主資本配当率）を指標として導入し、長期的な安定増配を方針とする。政策保有株の縮減と自社株買いを推進。"
     },
     {
       "ticker": "7201.T",
@@ -74,10 +98,96 @@
       "annual_dividend_forecast": 0.0,
       "currency": "JPY",
       "dividend_yield_percent": 0.0,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 0,
-      "ai_summary_ja": "業績悪化と構造改革に伴い配当予想は無配または大幅見直しリスクが高く、回復局面まで慎重な見方。"
+      "ai_summary_ja": "業績悪化に伴い配当予想は未定または無配転落。事業構造改革の進捗およびフリーキャッシュフロー改善が急務。"
+    },
+    {
+      "ticker": "7269.T",
+      "market": "JP",
+      "name_ja": "スズキ",
+      "name_en": "Suzuki Motor Corporation",
+      "sector": "輸送用機器",
+      "annual_dividend_forecast": 42.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.4,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "株式分割後も堅調な業績を背景に増配基調。インド市場の成長と電動化投資の両立を図りつつ安定還元を実施。"
+    },
+    {
+      "ticker": "7272.T",
+      "market": "JP",
+      "name_ja": "ヤマハ発動機",
+      "name_en": "Yamaha Motor Co., Ltd.",
+      "sector": "輸送用機器",
+      "annual_dividend_forecast": 50.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.8,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "12月本決算銘柄。配当性向40%を目安とし、キャッシュフローの状況に応じた機動的で高水準な株主還元を継続。"
+    },
+    {
+      "ticker": "7259.T",
+      "market": "JP",
+      "name_ja": "アイシン",
+      "name_en": "Aisin Corporation",
+      "sector": "輸送用機器",
+      "annual_dividend_forecast": 100.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.3,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        11
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "DOE導入など資本効率の改善を掲げ安定増配を目指す。政策保有株の売却代金を活用した自社株買いも併用。"
+    },
+    {
+      "ticker": "7202.T",
+      "market": "JP",
+      "name_ja": "いすゞ自動車",
+      "name_en": "Isuzu Motors Limited",
+      "sector": "輸送用機器",
+      "annual_dividend_forecast": 92.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.5,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "配当性向40%以上を基本方針とし、高配当利回りを維持。商用車の堅調な海外需要を背景に連続増配を実施中。"
     },
     {
       "ticker": "8591.T",
@@ -88,10 +198,16 @@
       "annual_dividend_forecast": 120.0,
       "currency": "JPY",
       "dividend_yield_percent": 3.6,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 14,
-      "ai_summary_ja": "配当性向39%または前期配当のいずれか高い方を採用し、長期の非減配・累進的な増配実績を誇る。"
+      "ai_summary_ja": "配当性向39%または前期実績配当額のいずれか高い方を基本とする方針。長期的な非減配・増配実績が強み。"
     },
     {
       "ticker": "8593.T",
@@ -102,10 +218,16 @@
       "annual_dividend_forecast": 40.0,
       "currency": "JPY",
       "dividend_yield_percent": 3.9,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 26,
-      "ai_summary_ja": "国内トップクラスの25年以上連続増配銘柄。配当性向40%程度を目安に安定成長と継続増配を目指す。"
+      "ai_summary_ja": "25年超にわたる国内屈指の連続増配企業。中期経営計画において配当性向40%以上を掲げ、累進配当を維持。"
     },
     {
       "ticker": "8306.T",
@@ -116,10 +238,16 @@
       "annual_dividend_forecast": 64.0,
       "currency": "JPY",
       "dividend_yield_percent": 3.5,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 4,
-      "ai_summary_ja": "累進配当方針を明示し配当性向40%を目安に増配基調。金利上昇や堅調な業績を背景に還元を強化中。"
+      "ai_summary_ja": "配当性向40%への引き上げと累進配当方針を導入。金利上昇の恩恵を受け利益伸長と増配、自社株買いを加速。"
     },
     {
       "ticker": "8316.T",
@@ -130,10 +258,16 @@
       "annual_dividend_forecast": 120.0,
       "currency": "JPY",
       "dividend_yield_percent": 3.4,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 4,
-      "ai_summary_ja": "減配しない累進配当方針を掲げ、株式分割後の実質増配と積極的な自社株買いを継続している。"
+      "ai_summary_ja": "累進配当方針を掲げ、配当性向40%を目指す。国内外の利回り改善と非金利収益拡大を背景に順調な増配を継続。"
     },
     {
       "ticker": "8411.T",
@@ -144,864 +278,16 @@
       "annual_dividend_forecast": 130.0,
       "currency": "JPY",
       "dividend_yield_percent": 3.4,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 4,
-      "ai_summary_ja": "累進配当と配当性向40%目安のバランス方針。国内金利環境の改善を追い風に連続増配を継続。"
-    },
-    {
-      "ticker": "8766.T",
-      "market": "JP",
-      "name_ja": "東京海上ホールディングス",
-      "name_en": "Tokio Marine Holdings, Inc.",
-      "sector": "保険業",
-      "annual_dividend_forecast": 172.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.1,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 13,
-      "ai_summary_ja": "政策保有株売却益の活用と海外保険事業の成長で、10年超の連続増配を継続する優良保険株。"
-    },
-    {
-      "ticker": "8725.T",
-      "market": "JP",
-      "name_ja": "MS&ADインシュアランスグループHD",
-      "name_en": "MS&AD Insurance Group Holdings, Inc.",
-      "sector": "保険業",
-      "annual_dividend_forecast": 145.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 4.2,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 11,
-      "ai_summary_ja": "修正利益の50%を目安に配当を行う方針。政策保有株式の削減加速により大幅な株主還元余力を持つ。"
-    },
-    {
-      "ticker": "8750.T",
-      "market": "JP",
-      "name_ja": "第一生命ホールディングス",
-      "name_en": "Dai-ichi Life Holdings, Inc.",
-      "sector": "保険業",
-      "annual_dividend_forecast": 132.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.2,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 4,
-      "ai_summary_ja": "修正利益に対する配当性向40%以上を目安とし、減配回避を意識した安定・増配基調を維持。"
-    },
-    {
-      "ticker": "8604.T",
-      "market": "JP",
-      "name_ja": "野村ホールディングス",
-      "name_en": "Nomura Holdings, Inc.",
-      "sector": "証券・商品先物取引業",
-      "annual_dividend_forecast": 36.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.9,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 2,
-      "ai_summary_ja": "連結配当性向40%以上・総還元性向50%以上が基準。市況連動性があるため業績による配当変動あり。"
-    },
-    {
-      "ticker": "8697.T",
-      "market": "JP",
-      "name_ja": "日本取引所グループ",
-      "name_en": "Japan Exchange Group, Inc.",
-      "sector": "その他金融業",
-      "annual_dividend_forecast": 44.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 2.6,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 3,
-      "ai_summary_ja": "配当性向60%程度の高還元方針。株式市場の売買代金活況時に特別配当や記念配当を実施する傾向。"
-    },
-    {
-      "ticker": "8058.T",
-      "market": "JP",
-      "name_ja": "三菱商事",
-      "name_en": "Mitsubishi Corporation",
-      "sector": "卸売業",
-      "annual_dividend_forecast": 100.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.8,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 9,
-      "ai_summary_ja": "累進配当政策を長期にわたり実践する総合商社大手。非資源分野の拡充と自社株買いで還元水準が高い。"
-    },
-    {
-      "ticker": "8001.T",
-      "market": "JP",
-      "name_ja": "伊藤忠商事",
-      "name_en": "ITOCHU Corporation",
-      "sector": "卸売業",
-      "annual_dividend_forecast": 200.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 2.7,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 10,
-      "ai_summary_ja": "非資源分野に強みを持ち、下限配当設定と累進的な増配を継続。総還元性向50%水準を意識した方針。"
-    },
-    {
-      "ticker": "8031.T",
-      "market": "JP",
-      "name_ja": "三井物産",
-      "name_en": "Mitsui & Co., Ltd.",
-      "sector": "卸売業",
-      "annual_dividend_forecast": 100.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.2,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 4,
-      "ai_summary_ja": "基礎営業キャッシュフローに対する還元枠を拡大し、下限配当設定を伴う累進配当を実施中。"
-    },
-    {
-      "ticker": "8053.T",
-      "market": "JP",
-      "name_ja": "住友商事",
-      "name_en": "Sumitomo Corporation",
-      "sector": "卸売業",
-      "annual_dividend_forecast": 130.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.9,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 4,
-      "ai_summary_ja": "総還元性向40%以上と累進配当方針を採用。資源・非資源のバランス経営で安定配当を維持。"
-    },
-    {
-      "ticker": "8002.T",
-      "market": "JP",
-      "name_ja": "丸紅",
-      "name_en": "Marubeni Corporation",
-      "sector": "卸売業",
-      "annual_dividend_forecast": 90.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.8,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 4,
-      "ai_summary_ja": "累進配当と総還元性向30〜35%目安を組み合わせ、食料・農業関連等の安定収益で増配を継続。"
-    },
-    {
-      "ticker": "2768.T",
-      "market": "JP",
-      "name_ja": "双日",
-      "name_en": "Sojitz Corporation",
-      "sector": "卸売業",
-      "annual_dividend_forecast": 150.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 4.4,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 4,
-      "ai_summary_ja": "株主資本DOE4.5%を目安とする累進的配当政策を採用し、業績連動の変動を抑えた高配当が魅力。"
-    },
-    {
-      "ticker": "9432.T",
-      "market": "JP",
-      "name_ja": "日本電信電話 (NTT)",
-      "name_en": "Nippon Telegraph and Telephone Corporation",
-      "sector": "情報・通信業",
-      "annual_dividend_forecast": 5.2,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.4,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 14,
-      "ai_summary_ja": "10年以上連続増配を続けるディフェンシブ通信大手。安定した現金創出力が長期保有に適する。"
-    },
-    {
-      "ticker": "9433.T",
-      "market": "JP",
-      "name_ja": "KDDI",
-      "name_en": "KDDI Corporation",
-      "sector": "情報・通信業",
-      "annual_dividend_forecast": 145.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.0,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 23,
-      "ai_summary_ja": "20年超の連続増配を継続する国内屈指の増配株。配当性向40%超を基準に持続的な利益成長と還元を両立。"
-    },
-    {
-      "ticker": "9434.T",
-      "market": "JP",
-      "name_ja": "ソフトバンク",
-      "name_en": "SoftBank Corp.",
-      "sector": "情報・通信業",
-      "annual_dividend_forecast": 8.6,
-      "currency": "JPY",
-      "dividend_yield_percent": 4.3,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 6,
-      "ai_summary_ja": "10分割後も高水準の配当利回りを維持。国内通信・金融・PayPay事業の安定キャッシュで高配当性向を継続。"
-    },
-    {
-      "ticker": "9984.T",
-      "market": "JP",
-      "name_ja": "ソフトバンクグループ",
-      "name_en": "SoftBank Group Corp.",
-      "sector": "情報・通信業",
-      "annual_dividend_forecast": 44.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 0.5,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 5,
-      "ai_summary_ja": "配当利回りは低いものの長期間にわたり1株44円程度の定額配当を維持し、成長投資を優先する方針。"
-    },
-    {
-      "ticker": "2914.T",
-      "market": "JP",
-      "name_ja": "日本たばこ産業 (JT)",
-      "name_en": "Japan Tobacco Inc.",
-      "sector": "食料品",
-      "annual_dividend_forecast": 194.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 4.7,
-      "ex_dividend_months": [6, 12],
-      "payment_months": [3, 9],
-      "consecutive_years": 4,
-      "ai_summary_ja": "配当性向75%程度を目安とする超高配当の代表格。海外たばこ事業の値上げ力により高い配当水準を維持。"
-    },
-    {
-      "ticker": "2802.T",
-      "market": "JP",
-      "name_ja": "味の素",
-      "name_en": "Ajinomoto Co., Inc.",
-      "sector": "食料品",
-      "annual_dividend_forecast": 80.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 1.3,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 6,
-      "ai_summary_ja": "累進配当とDOE4%以上を目標に掲げ、食品・半導体向け電子材料の収益拡大とともに着実に増配。"
-    },
-    {
-      "ticker": "2503.T",
-      "market": "JP",
-      "name_ja": "キリンホールディングス",
-      "name_en": "Kirin Holdings Company, Limited",
-      "sector": "食料品",
-      "annual_dividend_forecast": 71.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.4,
-      "ex_dividend_months": [6, 12],
-      "payment_months": [3, 9],
-      "consecutive_years": 10,
-      "ai_summary_ja": "DOE5%以上を目安に減配せず安定配当・増配を志向。飲料・医薬・ヘルスサイエンス事業の安定感が強み。"
-    },
-    {
-      "ticker": "2502.T",
-      "market": "JP",
-      "name_ja": "アサヒグループホールディングス",
-      "name_en": "Asahi Group Holdings, Ltd.",
-      "sector": "食料品",
-      "annual_dividend_forecast": 49.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 2.9,
-      "ex_dividend_months": [6, 12],
-      "payment_months": [3, 9],
-      "consecutive_years": 15,
-      "ai_summary_ja": "配当性向40%目標に向けて増配を継続。欧州・オセアニア等の海外収益改善とともに還元拡充を図る。"
-    },
-    {
-      "ticker": "4452.T",
-      "market": "JP",
-      "name_ja": "花王",
-      "name_en": "Kao Corporation",
-      "sector": "化学",
-      "annual_dividend_forecast": 152.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 2.3,
-      "ex_dividend_months": [6, 12],
-      "payment_months": [3, 9],
-      "consecutive_years": 35,
-      "ai_summary_ja": "日本株最長クラスの35年連続増配銘柄。構造改革による利益回復を進めつつ継続増配コミットメントを維持。"
-    },
-    {
-      "ticker": "8267.T",
-      "market": "JP",
-      "name_ja": "イオン",
-      "name_en": "AEON Co., Ltd.",
-      "sector": "小売業",
-      "annual_dividend_forecast": 40.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 1.1,
-      "ex_dividend_months": [2, 8],
-      "payment_months": [5, 11],
-      "consecutive_years": 5,
-      "ai_summary_ja": "安定配当を基本に微増配傾向。配当利回り自体は低めだが、買物キャッシュバック優待との総合利回りが人気。"
-    },
-    {
-      "ticker": "2702.T",
-      "market": "JP",
-      "name_ja": "日本マクドナルドホールディングス",
-      "name_en": "McDonald's Holdings Company (Japan), Ltd.",
-      "sector": "小売業",
-      "annual_dividend_forecast": 45.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 0.7,
-      "ex_dividend_months": [6, 12],
-      "payment_months": [3, 9],
-      "consecutive_years": 5,
-      "ai_summary_ja": "12月一括または年次ベースで堅調な増配傾向。外食優待銘柄の代表として安定収益が配当を下支え。"
-    },
-    {
-      "ticker": "3048.T",
-      "market": "JP",
-      "name_ja": "ビックカメラ",
-      "name_en": "Bic Camera Inc.",
-      "sector": "小売業",
-      "annual_dividend_forecast": 36.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 2.2,
-      "ex_dividend_months": [2, 8],
-      "payment_months": [5, 11],
-      "consecutive_years": 3,
-      "ai_summary_ja": "インバウンド需要回復と子会社収益改善を背景に増配基調。買物優待券と合わせた個人投資家人気が高い。"
-    },
-    {
-      "ticker": "9831.T",
-      "market": "JP",
-      "name_ja": "ヤマダホールディングス",
-      "name_en": "YAMADA HOLDINGS CO., LTD.",
-      "sector": "小売業",
-      "annual_dividend_forecast": 13.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.0,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 2,
-      "ai_summary_ja": "配当性向30%以上を目安とし、家電量販と住建事業の安定収益から3%前後の配当と優待券を提供。"
-    },
-    {
-      "ticker": "3197.T",
-      "market": "JP",
-      "name_ja": "すかいらーくホールディングス",
-      "name_en": "Skylark Holdings Co., Ltd.",
-      "sector": "小売業",
-      "annual_dividend_forecast": 18.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 0.8,
-      "ex_dividend_months": [6, 12],
-      "payment_months": [3, 9],
-      "consecutive_years": 2,
-      "ai_summary_ja": "外食需要回復により復配・増配へ転換。配当性向30%目安としつつ優待食事カードとのバランスを維持。"
-    },
-    {
-      "ticker": "7550.T",
-      "market": "JP",
-      "name_ja": "ゼンショーホールディングス",
-      "name_en": "ZENSHO HOLDINGS CO., LTD.",
-      "sector": "小売業",
-      "annual_dividend_forecast": 70.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 0.9,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 4,
-      "ai_summary_ja": "海外寿司チェーンや牛丼事業の好調で収益拡大に伴い増配基調。優待食事券と成長期待が特徴。"
-    },
-    {
-      "ticker": "9861.T",
-      "market": "JP",
-      "name_ja": "吉野家ホールディングス",
-      "name_en": "YOSHINOYA HOLDINGS CO., LTD.",
-      "sector": "小売業",
-      "annual_dividend_forecast": 20.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 0.7,
-      "ex_dividend_months": [2, 8],
-      "payment_months": [5, 11],
-      "consecutive_years": 3,
-      "ai_summary_ja": "既存店売上の回復で黒字定着し配当を継続。飲食優待券を重視する個人株主向けの安定還元を維持。"
-    },
-    {
-      "ticker": "7616.T",
-      "market": "JP",
-      "name_ja": "コロワイド",
-      "name_en": "COLOWIDE Co., Ltd.",
-      "sector": "小売業",
-      "annual_dividend_forecast": 5.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 0.3,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 3,
-      "ai_summary_ja": "期末5円の少額安定配当を継続。還元は主として年間2万円相当の優待ポイント付与を軸としている。"
-    },
-    {
-      "ticker": "3382.T",
-      "market": "JP",
-      "name_ja": "セブン＆アイ・ホールディングス",
-      "name_en": "Seven & i Holdings Co., Ltd.",
-      "sector": "小売業",
-      "annual_dividend_forecast": 40.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 1.7,
-      "ex_dividend_months": [2, 8],
-      "payment_months": [5, 11],
-      "consecutive_years": 5,
-      "ai_summary_ja": "株式分割後も累進的な安定配当を維持。事業再編と株主価値向上策に伴う還元強化が注目される。"
-    },
-    {
-      "ticker": "1605.T",
-      "market": "JP",
-      "name_ja": "INPEX",
-      "name_en": "INPEX CORPORATION",
-      "sector": "鉱業",
-      "annual_dividend_forecast": 86.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 4.2,
-      "ex_dividend_months": [6, 12],
-      "payment_months": [3, 9],
-      "consecutive_years": 4,
-      "ai_summary_ja": "累進配当を導入し1株配当の段階的引き上げを実施。原油価格変動下でも総還元性向40%以上を目指す。"
-    },
-    {
-      "ticker": "5020.T",
-      "market": "JP",
-      "name_ja": "ENEOSホールディングス",
-      "name_en": "ENEOS Holdings, Inc.",
-      "sector": "石油・石炭製品",
-      "annual_dividend_forecast": 26.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.4,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 2,
-      "ai_summary_ja": "下限配当22円以上の累進方針へ移行し増配を発表。在庫影響を除いた利益ベースの還元を重視。"
-    },
-    {
-      "ticker": "5016.T",
-      "market": "JP",
-      "name_ja": "JX金属",
-      "name_en": "JX Advanced Metals Corporation",
-      "sector": "非鉄金属",
-      "annual_dividend_forecast": 25.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.0,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "半導体用ターゲット材等の先端素材を主力とし、配当性向基準に沿った安定配当を目指す方針。"
-    },
-    {
-      "ticker": "5857.T",
-      "market": "JP",
-      "name_ja": "AREホールディングス",
-      "name_en": "ARE Holdings, Inc.",
-      "sector": "非鉄金属",
-      "annual_dividend_forecast": 80.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 4.4,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 3,
-      "ai_summary_ja": "貴金属リサイクル事業を軸にDOEおよび配当性向を意識した高水準の配当還元を継続中。"
-    },
-    {
-      "ticker": "5401.T",
-      "market": "JP",
-      "name_ja": "日本製鉄",
-      "name_en": "Nippon Steel Corporation",
-      "sector": "鉄鋼",
-      "annual_dividend_forecast": 160.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 5.0,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 2,
-      "ai_summary_ja": "配当性向30%程度を基本に高配当水準を維持。構造改革効果はあるが鉄鋼市況・買収動向による業績変動に注意。"
-    },
-    {
-      "ticker": "5411.T",
-      "market": "JP",
-      "name_ja": "JFEホールディングス",
-      "name_en": "JFE Holdings, Inc.",
-      "sector": "鉄鋼",
-      "annual_dividend_forecast": 100.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 5.2,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 2,
-      "ai_summary_ja": "配当性向30%程度・下限意識の還元方針だが、鋼材スプレッド悪化時には減配リスクを伴う景気敏感株。"
-    },
-    {
-      "ticker": "9503.T",
-      "market": "JP",
-      "name_ja": "関西電力",
-      "name_en": "The Kansai Electric Power Company, Incorporated",
-      "sector": "電気・ガス業",
-      "annual_dividend_forecast": 60.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.1,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 2,
-      "ai_summary_ja": "原子力発電の再稼働による収益改善を背景に復配・増配を実施。財務健全化とのバランスで還元姿勢を維持。"
-    },
-    {
-      "ticker": "9531.T",
-      "market": "JP",
-      "name_ja": "東京ガス",
-      "name_en": "Tokyo Gas Co., Ltd.",
-      "sector": "電気・ガス業",
-      "annual_dividend_forecast": 80.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 2.1,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 4,
-      "ai_summary_ja": "総還元性向40〜50%目安のもと、安定的な増配と大規模な自社株買いを組み合わせた株主還元を強化。"
-    },
-    {
-      "ticker": "9532.T",
-      "market": "JP",
-      "name_ja": "大阪ガス",
-      "name_en": "Osaka Gas Co., Ltd.",
-      "sector": "電気・ガス業",
-      "annual_dividend_forecast": 95.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 2.9,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 5,
-      "ai_summary_ja": "DOE3.0%水準を意識した増配基調を継続。国内ガス・海外エネルギー事業の安定収益が配当を支える。"
-    },
-    {
-      "ticker": "9202.T",
-      "market": "JP",
-      "name_ja": "ANAホールディングス",
-      "name_en": "ANA HOLDINGS INC.",
-      "sector": "空運業",
-      "annual_dividend_forecast": 50.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 1.8,
-      "ex_dividend_months": [3],
-      "payment_months": [6],
-      "consecutive_years": 2,
-      "ai_summary_ja": "国際線・インバウンド需要回復で復配を達成し3月一括50円配当を継続。運賃割引優待と合わせた人気銘柄。"
-    },
-    {
-      "ticker": "9201.T",
-      "market": "JP",
-      "name_ja": "日本航空 (JAL)",
-      "name_en": "Japan Airlines Co., Ltd.",
-      "sector": "空運業",
-      "annual_dividend_forecast": 80.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.2,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 3,
-      "ai_summary_ja": "配当性向35%程度以上を目安に連続増配傾向。航空旅客回復による堅調な利益成長を配当に反映。"
-    },
-    {
-      "ticker": "9020.T",
-      "market": "JP",
-      "name_ja": "東日本旅客鉄道 (JR東日本)",
-      "name_en": "East Japan Railway Company",
-      "sector": "陸運業",
-      "annual_dividend_forecast": 60.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 2.1,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 3,
-      "ai_summary_ja": "配当性向30%〜35%目安で着実に増配基調。鉄道運輸収入と不動産・駅ナカ収益の回復が安定要因。"
-    },
-    {
-      "ticker": "9022.T",
-      "market": "JP",
-      "name_ja": "東海旅客鉄道 (JR東海)",
-      "name_en": "Central Japan Railway Company",
-      "sector": "陸運業",
-      "annual_dividend_forecast": 30.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 0.9,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 3,
-      "ai_summary_ja": "東海道新幹線の高い収益力で株式分割後も増配を継続。リニア投資負担を踏まえ配当性向は控えめ。"
-    },
-    {
-      "ticker": "9021.T",
-      "market": "JP",
-      "name_ja": "西日本旅客鉄道 (JR西日本)",
-      "name_en": "West Japan Railway Company",
-      "sector": "陸運業",
-      "annual_dividend_forecast": 72.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 2.6,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 3,
-      "ai_summary_ja": "配当性向35%を目安として分割後も連続増配を実施。関西圏の観光・万博関連需要も追い風。"
-    },
-    {
-      "ticker": "9101.T",
-      "market": "JP",
-      "name_ja": "日本郵船",
-      "name_en": "Nippon Yusen Kabushiki Kaisha",
-      "sector": "海運業",
-      "annual_dividend_forecast": 260.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 5.2,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 1,
-      "ai_summary_ja": "配当性向30%目安・下限200円を意識した高配当海運株。コンテナ船市況により配当水準が変動しやすい。"
-    },
-    {
-      "ticker": "9104.T",
-      "market": "JP",
-      "name_ja": "商船三井",
-      "name_en": "Mitsui O.S.K. Lines, Ltd.",
-      "sector": "海運業",
-      "annual_dividend_forecast": 300.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 5.6,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 1,
-      "ai_summary_ja": "下限配当150円を設けつつ配当性向30%〜35%で還元。非海運事業拡大による収益安定化を推進中。"
-    },
-    {
-      "ticker": "9107.T",
-      "market": "JP",
-      "name_ja": "川崎汽船",
-      "name_en": "Kawasaki Kisen Kaisha, Ltd.",
-      "sector": "海運業",
-      "annual_dividend_forecast": 100.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 4.7,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 2,
-      "ai_summary_ja": "基準配当＋追加還元の枠組みで高利回りを維持。自動車船は堅調だが海運市況変動には留意が必要。"
-    },
-    {
-      "ticker": "6301.T",
-      "market": "JP",
-      "name_ja": "コマツ",
-      "name_en": "Komatsu Ltd.",
-      "sector": "機械",
-      "annual_dividend_forecast": 167.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 4.0,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 4,
-      "ai_summary_ja": "連結配当性向40%以上を方針とし、鉱山機械やアフターサービスの高収益で安定・高水準な配当を継続。"
-    },
-    {
-      "ticker": "6758.T",
-      "market": "JP",
-      "name_ja": "ソニーグループ",
-      "name_en": "Sony Group Corporation",
-      "sector": "電気機器",
-      "annual_dividend_forecast": 20.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 0.7,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 10,
-      "ai_summary_ja": "株式5分割後も緩やかな増配基調を維持。成長投資優先のため低利回りだが安定増配と自社株買いを継続。"
-    },
-    {
-      "ticker": "6861.T",
-      "market": "JP",
-      "name_ja": "キーエンス",
-      "name_en": "KEYENCE CORPORATION",
-      "sector": "電気機器",
-      "annual_dividend_forecast": 300.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 0.5,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 4,
-      "ai_summary_ja": "高い営業利益率と豊富な手元資金を背景に定額・増配傾向。配当利回りより長期の株価成長力が中心。"
-    },
-    {
-      "ticker": "7751.T",
-      "market": "JP",
-      "name_ja": "キヤノン",
-      "name_en": "Canon Inc.",
-      "sector": "電気機器",
-      "annual_dividend_forecast": 155.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.2,
-      "ex_dividend_months": [6, 12],
-      "payment_months": [3, 8],
-      "consecutive_years": 4,
-      "ai_summary_ja": "配当性向50%目安とし安定的な増配基調を維持。半導体露光装置や医療機器等の成長事業で収益を下支え。"
-    },
-    {
-      "ticker": "7741.T",
-      "market": "JP",
-      "name_ja": "HOYA",
-      "name_en": "HOYA CORPORATION",
-      "sector": "精密機器",
-      "annual_dividend_forecast": 110.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 0.6,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 5,
-      "ai_summary_ja": "EUVマスクブランクスやライフケア事業の好業績により安定配当に加え積極的な自社株買いを実施。"
-    },
-    {
-      "ticker": "7974.T",
-      "market": "JP",
-      "name_ja": "任天堂",
-      "name_en": "Nintendo Co., Ltd.",
-      "sector": "その他製品",
-      "annual_dividend_forecast": 140.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 1.7,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 1,
-      "ai_summary_ja": "営業利益の33%または配当性向50%の高い方を採用する明確な業績連動方針。ハード世代交代期の業績に連動。"
-    },
-    {
-      "ticker": "4063.T",
-      "market": "JP",
-      "name_ja": "信越化学工業",
-      "name_en": "Shin-Etsu Chemical Co., Ltd.",
-      "sector": "化学",
-      "annual_dividend_forecast": 106.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 1.9,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 9,
-      "ai_summary_ja": "塩ビと半導体シリコンウエハの世界首位級。強固な財務基盤で非減配と着実な増配を継続。"
-    },
-    {
-      "ticker": "4502.T",
-      "market": "JP",
-      "name_ja": "武田薬品工業",
-      "name_en": "Takeda Pharmaceutical Company Limited",
-      "sector": "医薬品",
-      "annual_dividend_forecast": 196.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 4.7,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 2,
-      "ai_summary_ja": "累進配当方針を採用し高水準の利回りを維持。主力品特許切れ影響と新薬成長のバランスに注視。"
-    },
-    {
-      "ticker": "4503.T",
-      "market": "JP",
-      "name_ja": "アステラス製薬",
-      "name_en": "Astellas Pharma Inc.",
-      "sector": "医薬品",
-      "annual_dividend_forecast": 74.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 4.5,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 12,
-      "ai_summary_ja": "中長期的な利益成長に基づく連続増配を継続。配当性向が高まっているためフリーCFの回復が焦点。"
-    },
-    {
-      "ticker": "4568.T",
-      "market": "JP",
-      "name_ja": "第一三共",
-      "name_en": "Daiichi Sankyo Company, Limited",
-      "sector": "医薬品",
-      "annual_dividend_forecast": 60.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 1.3,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 4,
-      "ai_summary_ja": "がん領域ADC製剤の急成長を背景に増配基調へ転換。DOE8%以上を目安に長期的な還元拡大を目指す。"
-    },
-    {
-      "ticker": "8801.T",
-      "market": "JP",
-      "name_ja": "三井不動産",
-      "name_en": "Mitsui Fudosan Co., Ltd.",
-      "sector": "不動産業",
-      "annual_dividend_forecast": 30.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 2.3,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 4,
-      "ai_summary_ja": "株式3分割後も累進配当方針で増配を継続。総還元性向50%以上を掲げ安定キャッシュフローで還元。"
-    },
-    {
-      "ticker": "8802.T",
-      "market": "JP",
-      "name_ja": "三菱地所",
-      "name_en": "Mitsubishi Estate Company, Limited",
-      "sector": "不動産業",
-      "annual_dividend_forecast": 43.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 2.0,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 5,
-      "ai_summary_ja": "丸の内賃貸資産の安定収益を基盤に段階的な増配と自社株買いを継続。金利動向をこなし堅調推移。"
-    },
-    {
-      "ticker": "1925.T",
-      "market": "JP",
-      "name_ja": "大和ハウス工業",
-      "name_en": "Daiwa House Industry Co., Ltd.",
-      "sector": "建設業",
-      "annual_dividend_forecast": 145.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.2,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 15,
-      "ai_summary_ja": "配当性向35%以上と下限配当145円を設定し、10年超の連続増配実績を誇る高配当建設・不動産大手。"
-    },
-    {
-      "ticker": "1928.T",
-      "market": "JP",
-      "name_ja": "積水ハウス",
-      "name_en": "Sekisui House, Ltd.",
-      "sector": "建設業",
-      "annual_dividend_forecast": 129.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.6,
-      "ex_dividend_months": [1, 7],
-      "payment_months": [4, 9],
-      "consecutive_years": 13,
-      "ai_summary_ja": "1月・7月決算の貴重な連続増配株。配当性向40%以上・下限110円以上の方針で安定還元が魅力。"
-    },
-    {
-      "ticker": "5108.T",
-      "market": "JP",
-      "name_ja": "ブリヂストン",
-      "name_en": "Bridgestone Corporation",
-      "sector": "ゴム製品",
-      "annual_dividend_forecast": 210.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.8,
-      "ex_dividend_months": [6, 12],
-      "payment_months": [3, 9],
-      "consecutive_years": 4,
-      "ai_summary_ja": "連結配当性向40%水準を目安に6月・12月基準で高水準の配当を維持。高付加価値タイヤ拡販が収益源。"
+      "ai_summary_ja": "配当性向40%を目安とする累進的配当方針。資本効率向上とともに堅調な本業利益を背景に増配トレンドが定着。"
     },
     {
       "ticker": "8308.T",
@@ -1012,10 +298,16 @@
       "annual_dividend_forecast": 23.0,
       "currency": "JPY",
       "dividend_yield_percent": 2.2,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 3,
-      "ai_summary_ja": "長期の定額配当期から増配フェーズへ転換。国内リテール基盤への金利上昇メリットで還元強化中。"
+      "ai_summary_ja": "総還元性向40%程度を目標に安定増配を継続。国内金利上昇による資金利益改善とリテール強化が下支え。"
     },
     {
       "ticker": "8309.T",
@@ -1026,10 +318,56 @@
       "annual_dividend_forecast": 145.0,
       "currency": "JPY",
       "dividend_yield_percent": 4.0,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 5,
-      "ai_summary_ja": "累進配当と配当性向40%程度を軸に増配基調。信託・資産運用ビジネスによる安定手数料収益が強み。"
+      "ai_summary_ja": "配当性向40%程度を基本とし累進配当を掲げる。信託関連業務や資産運用残高の成長により高配当利回りを維持。"
+    },
+    {
+      "ticker": "8331.T",
+      "market": "JP",
+      "name_ja": "千葉銀行",
+      "name_en": "The Chiba Bank, Ltd.",
+      "sector": "銀行業",
+      "annual_dividend_forecast": 36.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.8,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "地銀大手として総還元性向50%を目安に設定。貸出利ざやの拡大とともに継続的な増配と自社株買いを推進。"
+    },
+    {
+      "ticker": "8354.T",
+      "market": "JP",
+      "name_ja": "ふくおかフィナンシャルグループ",
+      "name_en": "Fukuoka Financial Group, Inc.",
+      "sector": "銀行業",
+      "annual_dividend_forecast": 140.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.3,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "総還元性向40%以上を方針とし、地銀トップクラスの収益性をテコに積極的な増配姿勢を継続。"
     },
     {
       "ticker": "7182.T",
@@ -1040,10 +378,16 @@
       "annual_dividend_forecast": 58.0,
       "currency": "JPY",
       "dividend_yield_percent": 3.9,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 2,
-      "ai_summary_ja": "配当性向50%程度・下限50円以上を目安に高配当を維持。国内金利上昇に伴い運用収益改善が期待。"
+      "ai_summary_ja": "配当性向50%程度を目安とし、安定した高配当を提供。運用資産の利回り改善を進め株主還元強化を継続中。"
     },
     {
       "ticker": "6178.T",
@@ -1054,10 +398,56 @@
       "annual_dividend_forecast": 50.0,
       "currency": "JPY",
       "dividend_yield_percent": 3.5,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 2,
-      "ai_summary_ja": "安定配当50円を継続しつつ自社株買いも実施。金融子会社株式売却資金等を活用した株主還元方針。"
+      "ai_summary_ja": "1株当たり年間50円の安定配当維持を基本方針とし、高配当水準をキープ。自社株買いの実施にも積極的。"
+    },
+    {
+      "ticker": "8766.T",
+      "market": "JP",
+      "name_ja": "東京海上ホールディングス",
+      "name_en": "Tokio Marine Holdings, Inc.",
+      "sector": "保険業",
+      "annual_dividend_forecast": 172.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.1,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 13,
+      "ai_summary_ja": "修正純利益に連動した増配と自社株買いを実施。海外保険事業の伸長と政策株売却加速により連続増配を維持。"
+    },
+    {
+      "ticker": "8725.T",
+      "market": "JP",
+      "name_ja": "MS&ADインシュアランスグループHD",
+      "name_en": "MS&AD Insurance Group Holdings, Inc.",
+      "sector": "保険業",
+      "annual_dividend_forecast": 145.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.2,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 11,
+      "ai_summary_ja": "グループ修正利益の50%程度を基本還元とし累進配当を掲げる。高配当利回りと積極的な増配動向が特徴。"
     },
     {
       "ticker": "8630.T",
@@ -1068,10 +458,96 @@
       "annual_dividend_forecast": 132.0,
       "currency": "JPY",
       "dividend_yield_percent": 3.5,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 11,
-      "ai_summary_ja": "基礎的株主還元を修正利益の50%とし10年以上の連続増配を達成。政策保有株売却加速が還元を後押し。"
+      "ai_summary_ja": "修正連結利益の50%を基礎還元水準とし、累進的な増配を継続。政策保有株式削減に伴う自社株買いも併用。"
+    },
+    {
+      "ticker": "8750.T",
+      "market": "JP",
+      "name_ja": "第一生命ホールディングス",
+      "name_en": "Dai-ichi Life Holdings, Inc.",
+      "sector": "保険業",
+      "annual_dividend_forecast": 132.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.2,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "総還元性向50%以上を目安とし、非減配を基本に増配を推進。海外生保・アセットマネジメント事業が拡大牽引。"
+    },
+    {
+      "ticker": "8795.T",
+      "market": "JP",
+      "name_ja": "T&Dホールディングス",
+      "name_en": "T&D Holdings, Inc.",
+      "sector": "保険業",
+      "annual_dividend_forecast": 88.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.4,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "株主還元方針として累進配当と総還元性向40%以上を掲げる。中小企業市場での安定収益を原資に増配を継続。"
+    },
+    {
+      "ticker": "8604.T",
+      "market": "JP",
+      "name_ja": "野村ホールディングス",
+      "name_en": "Nomura Holdings, Inc.",
+      "sector": "証券・商品先物取引業",
+      "annual_dividend_forecast": 36.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.9,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "業績連動配当を基本とし配当性向40%以上および総還元性向50%以上を目標とする。"
+    },
+    {
+      "ticker": "8601.T",
+      "market": "JP",
+      "name_ja": "大和証券グループ本社",
+      "name_en": "Daiwa Securities Group Inc.",
+      "sector": "証券・商品先物取引業",
+      "annual_dividend_forecast": 44.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.8,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "配当性向50%以上を基本とし安定配当と機動的な自己株式取得を推進。"
     },
     {
       "ticker": "8473.T",
@@ -1082,10 +558,36 @@
       "annual_dividend_forecast": 160.0,
       "currency": "JPY",
       "dividend_yield_percent": 4.3,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 3,
-      "ai_summary_ja": "銀行・証券・投資事業の高い利益成長を背景に高利回りを維持。業績連動性はあるものの還元意欲が高い。"
+      "ai_summary_ja": "業績成長と株主還元を重視し、安定的かつ積極的な配当実施を基本方針とする。"
+    },
+    {
+      "ticker": "8697.T",
+      "market": "JP",
+      "name_ja": "日本取引所グループ",
+      "name_en": "Japan Exchange Group, Inc.",
+      "sector": "その他金融業",
+      "annual_dividend_forecast": 44.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.6,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "配当性向60%程度を目安とし、安定した株主還元を実施。"
     },
     {
       "ticker": "8439.T",
@@ -1096,10 +598,36 @@
       "annual_dividend_forecast": 58.0,
       "currency": "JPY",
       "dividend_yield_percent": 3.7,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 20,
-      "ai_summary_ja": "株式4分割後も20年連続増配を継続するリース大手。安定的な利益拡大に合わせて着実に増配。"
+      "ai_summary_ja": "長期にわたり増配基調を継続。配当性向35%以上を目安に安定増配を目指す。"
+    },
+    {
+      "ticker": "8424.T",
+      "market": "JP",
+      "name_ja": "芙蓉総合リース",
+      "name_en": "Fuyo General Lease Co., Ltd.",
+      "sector": "その他金融業",
+      "annual_dividend_forecast": 150.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.6,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 20,
+      "ai_summary_ja": "株式分割後も連続増配を継続中。配当性向30%以上を基本とし安定還元を行う。"
     },
     {
       "ticker": "8566.T",
@@ -1110,836 +638,156 @@
       "annual_dividend_forecast": 165.0,
       "currency": "JPY",
       "dividend_yield_percent": 3.3,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 29,
-      "ai_summary_ja": "30年近い連続増配実績を持つ堅実なリース会社。配当性向40%以上への引き上げ方針を掲げている。"
+      "ai_summary_ja": "25年以上の連続増配実績を誇り、累進配当を維持し配当性向40%超を目指す。"
     },
     {
-      "ticker": "3003.T",
+      "ticker": "8595.T",
       "market": "JP",
-      "name_ja": "ヒューリック",
-      "name_en": "Hulic Co., Ltd.",
-      "sector": "不動産業",
-      "annual_dividend_forecast": 54.0,
+      "name_ja": "ジャフコ グループ",
+      "name_en": "JAFCO Group Co., Ltd.",
+      "sector": "証券・商品先物取引業",
+      "annual_dividend_forecast": 75.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.5,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "DOEや業績を考慮しつつ総還元性向を高位に維持する方針。"
+    },
+    {
+      "ticker": "8058.T",
+      "market": "JP",
+      "name_ja": "三菱商事",
+      "name_en": "Mitsubishi Corporation",
+      "sector": "卸売業",
+      "annual_dividend_forecast": 100.0,
       "currency": "JPY",
       "dividend_yield_percent": 3.8,
-      "ex_dividend_months": [6, 12],
-      "payment_months": [3, 9],
-      "consecutive_years": 15,
-      "ai_summary_ja": "都心好立地オフィス中心の安定収益で15年超の連続増配。カタログギフト優待との組み合わせが人気。"
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 9,
+      "ai_summary_ja": "累進配当を継続方針とし、利益成長に応じた増配と自社株買いを積極的に推進。"
     },
     {
-      "ticker": "1878.T",
+      "ticker": "8001.T",
       "market": "JP",
-      "name_ja": "大東建託",
-      "name_en": "Daito Trust Construction Co., Ltd.",
-      "sector": "建設業",
-      "annual_dividend_forecast": 660.0,
+      "name_ja": "伊藤忠商事",
+      "name_en": "ITOCHU Corporation",
+      "sector": "卸売業",
+      "annual_dividend_forecast": 200.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.7,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 10,
+      "ai_summary_ja": "累進配当方針を掲げ総還元性向50%を目処とし、着実な増配を継続。"
+    },
+    {
+      "ticker": "8031.T",
+      "market": "JP",
+      "name_ja": "三井物産",
+      "name_en": "Mitsui & Co., Ltd.",
+      "sector": "卸売業",
+      "annual_dividend_forecast": 100.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.2,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "基礎営業キャッシュフローに応じた還元と累進配当方針を導入し下値を保証。"
+    },
+    {
+      "ticker": "8053.T",
+      "market": "JP",
+      "name_ja": "住友商事",
+      "name_en": "Sumitomo Corporation",
+      "sector": "卸売業",
+      "annual_dividend_forecast": 130.0,
       "currency": "JPY",
       "dividend_yield_percent": 3.9,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 3,
-      "ai_summary_ja": "配当性向50%の高還元を掲げる不動産・建設大手。賃貸管理のストック収益が安定配当を下支え。"
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "配当性向35〜40%を目安に業績伸長に伴う柔軟な増配を実施。"
     },
     {
-      "ticker": "1489.T",
+      "ticker": "8002.T",
       "market": "JP",
-      "name_ja": "NEXT FUNDS 日経平均高配当株50指数連動型上場投信",
-      "name_en": "NEXT FUNDS Nikkei 225 High Dividend Yield Stock 50 Index ETF",
-      "sector": "ETF・投信",
-      "annual_dividend_forecast": 88.0,
+      "name_ja": "丸紅",
+      "name_en": "Marubeni Corporation",
+      "sector": "卸売業",
+      "annual_dividend_forecast": 90.0,
       "currency": "JPY",
       "dividend_yield_percent": 3.8,
-      "ex_dividend_months": [1, 4, 7, 10],
-      "payment_months": [2, 5, 8, 11],
-      "consecutive_years": null,
-      "ai_summary_ja": "日経225構成銘柄の高配当50社に分散投資する年4回分配ETF。1月・4月・7月・10月の権利確定が人気。"
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "累進配当を導入し下限配当を設定しつつ株主還元を順調に拡大中。"
     },
     {
-      "ticker": "1577.T",
+      "ticker": "2768.T",
       "market": "JP",
-      "name_ja": "NEXT FUNDS 野村日本株高配当70連動型上場投信",
-      "name_en": "NEXT FUNDS Nomura Japan Equity High Dividend 70 ETF",
-      "sector": "ETF・投信",
-      "annual_dividend_forecast": 1350.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.5,
-      "ex_dividend_months": [1, 4, 7, 10],
-      "payment_months": [2, 5, 8, 11],
-      "consecutive_years": null,
-      "ai_summary_ja": "予想配当利回りの高い国内70銘柄に投資する年4回分配ETF。今期予想を基準とした均等配分が特徴。"
-    },
-    {
-      "ticker": "1698.T",
-      "market": "JP",
-      "name_ja": "上場インデックスファンド日本高配当",
-      "name_en": "Listed Index Fund Japan High Dividend",
-      "sector": "ETF・投信",
-      "annual_dividend_forecast": 120.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.5,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [4, 7, 10, 1],
-      "consecutive_years": null,
-      "ai_summary_ja": "東証配当フォーカス100指数連動のJ-REIT混合型年4回分配ETF。日本株とREITを1本でカバー。"
-    },
-    {
-      "ticker": "2564.T",
-      "market": "JP",
-      "name_ja": "グローバルX MSCIスーパーディビィデンド-日本株式 ETF",
-      "name_en": "Global X MSCI SuperDividend Japan ETF",
-      "sector": "ETF・投信",
-      "annual_dividend_forecast": 125.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 4.3,
-      "ex_dividend_months": [1, 3, 5, 7, 9, 11],
-      "payment_months": [2, 4, 6, 8, 10, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "年6回（隔月）分配を行う高配当日本株＋REIT連動ETF。インカムキャッシュフローの平準化に有効。"
-    },
-    {
-      "ticker": "8951.T",
-      "market": "JP",
-      "name_ja": "日本ビルファンド投資法人",
-      "name_en": "Nippon Building Fund Inc.",
-      "sector": "J-REIT",
-      "annual_dividend_forecast": 4700.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.8,
-      "ex_dividend_months": [6, 12],
-      "payment_months": [3, 9],
-      "consecutive_years": null,
-      "ai_summary_ja": "三井不動産系・国内最大級のオフィスREIT。分割後も都心Aクラスビルの高い稼働率で安定分配を継続。"
-    },
-    {
-      "ticker": "8952.T",
-      "market": "JP",
-      "name_ja": "ジャパンリアルエステイト投資法人",
-      "name_en": "Japan Real Estate Investment Corporation",
-      "sector": "J-REIT",
-      "annual_dividend_forecast": 4900.0,
+      "name_ja": "双日",
+      "name_en": "Sojitz Corporation",
+      "sector": "卸売業",
+      "annual_dividend_forecast": 150.0,
       "currency": "JPY",
       "dividend_yield_percent": 4.4,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "三菱地所系の老舗オフィスREIT。格付けAA水準の財務安定性を背景に長期の安定分配を維持。"
-    },
-    {
-      "ticker": "8953.T",
-      "market": "JP",
-      "name_ja": "日本都市ファンド投資法人",
-      "name_en": "Japan Metropolitan Fund Investment Corporation",
-      "sector": "J-REIT",
-      "annual_dividend_forecast": 4800.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 5.1,
-      "ex_dividend_months": [2, 8],
-      "payment_months": [5, 11],
-      "consecutive_years": null,
-      "ai_summary_ja": "商業・オフィス・住宅を保有する大型総合REIT。物件入替益も活用し2月・8月決算で5%前後の分配を実現。"
-    },
-    {
-      "ticker": "8963.T",
-      "market": "JP",
-      "name_ja": "インヴィンシブル投資法人",
-      "name_en": "Invincible Investment Corporation",
-      "sector": "J-REIT",
-      "annual_dividend_forecast": 3900.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 5.8,
-      "ex_dividend_months": [6, 12],
-      "payment_months": [3, 9],
-      "consecutive_years": null,
-      "ai_summary_ja": "ホテル特化型の代表REIT。訪日外国人旅行客の宿泊単価上昇を背景に高利回りな分配金推移。"
-    },
-    {
-      "ticker": "VYM",
-      "market": "US",
-      "name_ja": "バンガード・米国高配当株式ETF",
-      "name_en": "Vanguard High Dividend Yield ETF",
-      "sector": "米国ETF",
-      "annual_dividend_forecast": 3.55,
-      "currency": "USD",
-      "dividend_yield_percent": 2.8,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "予想配当利回りの高い米国大型株約550銘柄に超低コストで分散投資。四半期毎の安定増配基調が魅力。"
-    },
-    {
-      "ticker": "HDV",
-      "market": "US",
-      "name_ja": "iシェアーズ・コア 米国高配当株 ETF",
-      "name_en": "iShares Core High Dividend ETF",
-      "sector": "米国ETF",
-      "annual_dividend_forecast": 4.2,
-      "currency": "USD",
-      "dividend_yield_percent": 3.6,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "財務健全性の高い米国高配当株約75銘柄で構成。エネルギー・ヘルスケア・生活必需品のディフェンシブ比率が高い。"
-    },
-    {
-      "ticker": "SPYD",
-      "market": "US",
-      "name_ja": "SPDR ポートフォリオ S&P 500 高配当株式ETF",
-      "name_en": "SPDR Portfolio S&P 500 High Dividend ETF",
-      "sector": "米国ETF",
-      "annual_dividend_forecast": 1.85,
-      "currency": "USD",
-      "dividend_yield_percent": 4.2,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "S&P500の配当利回り上位80銘柄に均等投資する高配当ETF。不動産・公益・金融比率が高く4%超の高利回り。"
-    },
-    {
-      "ticker": "SCHD",
-      "market": "US",
-      "name_ja": "シュワブ・米国配当株式ETF",
-      "name_en": "Schwab U.S. Dividend Equity ETF",
-      "sector": "米国ETF",
-      "annual_dividend_forecast": 1.0,
-      "currency": "USD",
-      "dividend_yield_percent": 3.6,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "10年以上連続配当の財務優良株100社を厳選。増配率と配当利回りのバランスに優れた定番米国高配当ETF。"
-    },
-    {
-      "ticker": "VIG",
-      "market": "US",
-      "name_ja": "バンガード・米国増配株式ETF",
-      "name_en": "Vanguard Dividend Appreciation ETF",
-      "sector": "米国ETF",
-      "annual_dividend_forecast": 3.45,
-      "currency": "USD",
-      "dividend_yield_percent": 1.8,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "10年以上連続増配の米国大型株中心に投資。利回りよりも長期的な増配成長とトータルリターンを重視。"
-    },
-    {
-      "ticker": "JEPI",
-      "market": "US",
-      "name_ja": "JPモルガン・米国株式・プレミアム・インカム ETF",
-      "name_en": "JPMorgan Equity Premium Income ETF",
-      "sector": "米国ETF",
-      "annual_dividend_forecast": 4.25,
-      "currency": "USD",
-      "dividend_yield_percent": 7.4,
-      "ex_dividend_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "payment_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "S&P500低ボラ銘柄とELNオプション戦略で毎月分配を実現。市場ボラティリティにより月次分配額が変動。"
-    },
-    {
-      "ticker": "JEPQ",
-      "market": "US",
-      "name_ja": "JPモルガン・ナスダック米国株式・プレミアム・インカム ETF",
-      "name_en": "JPMorgan Nasdaq Equity Premium Income ETF",
-      "sector": "米国ETF",
-      "annual_dividend_forecast": 5.3,
-      "currency": "USD",
-      "dividend_yield_percent": 9.5,
-      "ex_dividend_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "payment_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "NASDAQ100銘柄とカバードコール戦略により毎月高いインカムを創出。株価上昇余地は一部限定される点に注意。"
-    },
-    {
-      "ticker": "DGRO",
-      "market": "US",
-      "name_ja": "iシェアーズ・コア 米国配当成長株 ETF",
-      "name_en": "iShares Core Dividend Growth ETF",
-      "sector": "米国ETF",
-      "annual_dividend_forecast": 1.4,
-      "currency": "USD",
-      "dividend_yield_percent": 2.3,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "5年以上連続増配かつ配当性向75%未満の銘柄で構成。将来の増配ポテンシャルを重視した分散ETF。"
-    },
-    {
-      "ticker": "DVY",
-      "market": "US",
-      "name_ja": "iシェアーズ 好配当株式 ETF",
-      "name_en": "iShares Select Dividend ETF",
-      "sector": "米国ETF",
-      "annual_dividend_forecast": 4.9,
-      "currency": "USD",
-      "dividend_yield_percent": 3.7,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "5年以上配当継続の米国高配当約100銘柄へ投資。公益・金融株の比率が高めで安定したインカムが特徴。"
-    },
-    {
-      "ticker": "SDY",
-      "market": "US",
-      "name_ja": "SPDR S&P 米国高配当株式 ETF",
-      "name_en": "SPDR S&P Dividend ETF",
-      "sector": "米国ETF",
-      "annual_dividend_forecast": 3.5,
-      "currency": "USD",
-      "dividend_yield_percent": 2.6,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "20年以上連続増配のS&P1500銘柄（配当貴族）で構成。長期の減配耐性を重視する投資家向け。"
-    },
-    {
-      "ticker": "VOO",
-      "market": "US",
-      "name_ja": "バンガード・S&P 500 ETF",
-      "name_en": "Vanguard S&P 500 ETF",
-      "sector": "米国ETF",
-      "annual_dividend_forecast": 6.8,
-      "currency": "USD",
-      "dividend_yield_percent": 1.3,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "米国大型株S&P500指数連動の定番ETF。配当利回りは1%台だが、構成企業の利益成長に伴い分配金も増加傾向。"
-    },
-    {
-      "ticker": "VTI",
-      "market": "US",
-      "name_ja": "バンガード・トータル・ストック・マーケットETF",
-      "name_en": "Vanguard Total Stock Market ETF",
-      "sector": "米国ETF",
-      "annual_dividend_forecast": 3.7,
-      "currency": "USD",
-      "dividend_yield_percent": 1.3,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "米国株式市場の大型から小型までほぼ全銘柄をカバー。年4回の分配金を出しつつ長期資産成長を狙う。"
-    },
-    {
-      "ticker": "QYLD",
-      "market": "US",
-      "name_ja": "グローバルX NASDAQ100・カバード・コール ETF",
-      "name_en": "Global X NASDAQ 100 Covered Call ETF",
-      "sector": "米国ETF",
-      "annual_dividend_forecast": 2.1,
-      "currency": "USD",
-      "dividend_yield_percent": 11.8,
-      "ex_dividend_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "payment_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "NASDAQ100のATMカバードコールにより毎月超高利回り分配を実施。元本成長性は乏しいため基準価額推移に注意。"
-    },
-    {
-      "ticker": "PFF",
-      "market": "US",
-      "name_ja": "iシェアーズ 米国優先株式 ETF",
-      "name_en": "iShares Preferred and Income Securities ETF",
-      "sector": "米国ETF",
-      "annual_dividend_forecast": 1.95,
-      "currency": "USD",
-      "dividend_yield_percent": 6.1,
-      "ex_dividend_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "payment_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "米国の優先株式に投資し毎月高水準の分配金を支払うETF。金利動向や金融セクターの信用リスクに感応。"
-    },
-    {
-      "ticker": "AGG",
-      "market": "US",
-      "name_ja": "iシェアーズ・コア 米国総合債券市場 ETF",
-      "name_en": "iShares Core U.S. Aggregate Bond ETF",
-      "sector": "米国債券ETF",
-      "annual_dividend_forecast": 3.7,
-      "currency": "USD",
-      "dividend_yield_percent": 3.7,
-      "ex_dividend_months": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "payment_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "米国投資適格債券全般に分散投資し毎月分配を実施。株式と組み合わせたポートフォリオの安定化・利回り確保に適する。"
-    },
-    {
-      "ticker": "BND",
-      "market": "US",
-      "name_ja": "バンガード・米国トータル債券市場ETF",
-      "name_en": "Vanguard Total Bond Market ETF",
-      "sector": "米国債券ETF",
-      "annual_dividend_forecast": 2.7,
-      "currency": "USD",
-      "dividend_yield_percent": 3.7,
-      "ex_dividend_months": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "payment_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "consecutive_years": null,
-      "ai_summary_ja": "米国国債・社債等1万銘柄超へ低コスト分散し毎月分配金を支払う定番債券ETF。金利水準に応じた利回りが魅力。"
-    },
-    {
-      "ticker": "KO",
-      "market": "US",
-      "name_ja": "コカ・コーラ",
-      "name_en": "The Coca-Cola Company",
-      "sector": "生活必需品",
-      "annual_dividend_forecast": 1.94,
-      "currency": "USD",
-      "dividend_yield_percent": 3.0,
-      "ex_dividend_months": [3, 6, 9, 11],
-      "payment_months": [4, 7, 10, 12],
-      "consecutive_years": 62,
-      "ai_summary_ja": "60年以上の連続増配を誇る配当王の代表格。世界的な飲料ブランド力により景気後退局面でも配当耐性が高い。"
-    },
-    {
-      "ticker": "PEP",
-      "market": "US",
-      "name_ja": "ペプシコ",
-      "name_en": "PepsiCo, Inc.",
-      "sector": "生活必需品",
-      "annual_dividend_forecast": 5.42,
-      "currency": "USD",
-      "dividend_yield_percent": 3.4,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [1, 3, 6, 9],
-      "consecutive_years": 52,
-      "ai_summary_ja": "飲料とスナック菓子を両輪とする50年超連続増配の配当王。強い価格転嫁力で着実な増配を継続。"
-    },
-    {
-      "ticker": "PG",
-      "market": "US",
-      "name_ja": "プロクター・アンド・ギャンブル (P&G)",
-      "name_en": "The Procter & Gamble Company",
-      "sector": "生活必需品",
-      "annual_dividend_forecast": 4.03,
-      "currency": "USD",
-      "dividend_yield_percent": 2.4,
-      "ex_dividend_months": [1, 4, 7, 10],
-      "payment_months": [2, 5, 8, 11],
-      "consecutive_years": 68,
-      "ai_summary_ja": "68年連続増配の世界的日用品メーカー。圧倒的なブランド群が安定キャッシュフローを生み長期保有に好適。"
-    },
-    {
-      "ticker": "JNJ",
-      "market": "US",
-      "name_ja": "ジョンソン・エンド・ジョンソン",
-      "name_en": "Johnson & Johnson",
-      "sector": "ヘルスケア",
-      "annual_dividend_forecast": 4.96,
-      "currency": "USD",
-      "dividend_yield_percent": 3.2,
-      "ex_dividend_months": [2, 5, 8, 11],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": 62,
-      "ai_summary_ja": "AAA格付けの財務力を持つ60年超連続増配の配当王。医療機器・医薬品に特化し安定した増配を継続。"
-    },
-    {
-      "ticker": "ABBV",
-      "market": "US",
-      "name_ja": "アッヴィ",
-      "name_en": "AbbVie Inc.",
-      "sector": "ヘルスケア",
-      "annual_dividend_forecast": 6.56,
-      "currency": "USD",
-      "dividend_yield_percent": 3.5,
-      "ex_dividend_months": [1, 4, 7, 10],
-      "payment_months": [2, 5, 8, 11],
-      "consecutive_years": 52,
-      "ai_summary_ja": "高配当と高い増配率を両立する製薬大手。次世代主力薬の売上拡大により特許崖を乗り越え増配を継続。"
-    },
-    {
-      "ticker": "XOM",
-      "market": "US",
-      "name_ja": "エクソンモービル",
-      "name_en": "Exxon Mobil Corporation",
-      "sector": "エネルギー",
-      "annual_dividend_forecast": 3.96,
-      "currency": "USD",
-      "dividend_yield_percent": 3.3,
-      "ex_dividend_months": [2, 5, 8, 11],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": 42,
-      "ai_summary_ja": "40年超連続増配の石油メジャー最大手。低コスト生産資産の拡大により原油安局面への配当耐性を強化。"
-    },
-    {
-      "ticker": "CVX",
-      "market": "US",
-      "name_ja": "シェブロン",
-      "name_en": "Chevron Corporation",
-      "sector": "エネルギー",
-      "annual_dividend_forecast": 6.52,
-      "currency": "USD",
-      "dividend_yield_percent": 4.2,
-      "ex_dividend_months": [2, 5, 8, 11],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": 37,
-      "ai_summary_ja": "35年超連続増配の米国エネルギー大手。健全な負債比率と規律ある資本配分で4%台の安定配当を提供。"
-    },
-    {
-      "ticker": "T",
-      "market": "US",
-      "name_ja": "AT&T",
-      "name_en": "AT&T Inc.",
-      "sector": "通信",
-      "annual_dividend_forecast": 1.11,
-      "currency": "USD",
-      "dividend_yield_percent": 4.9,
-      "ex_dividend_months": [1, 4, 7, 10],
-      "payment_months": [2, 5, 8, 11],
-      "consecutive_years": 2,
-      "ai_summary_ja": "メディア事業分離に伴う減配後は通信事業へ回帰しフリーCFが改善。負債削減とともに安定配当を維持。"
-    },
-    {
-      "ticker": "VZ",
-      "market": "US",
-      "name_ja": "ベライゾン・コミュニケーションズ",
-      "name_en": "Verizon Communications Inc.",
-      "sector": "通信",
-      "annual_dividend_forecast": 2.71,
-      "currency": "USD",
-      "dividend_yield_percent": 6.3,
-      "ex_dividend_months": [1, 4, 7, 10],
-      "payment_months": [2, 5, 8, 11],
-      "consecutive_years": 18,
-      "ai_summary_ja": "18年連続増配の米通信大手。設備投資ピークアウトによるフリーCF増加が6%台の高配当利回りを支える。"
-    },
-    {
-      "ticker": "MO",
-      "market": "US",
-      "name_ja": "アルトリア・グループ",
-      "name_en": "Altria Group, Inc.",
-      "sector": "生活必需品",
-      "annual_dividend_forecast": 4.08,
-      "currency": "USD",
-      "dividend_yield_percent": 7.5,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [1, 4, 7, 10],
-      "consecutive_years": 55,
-      "ai_summary_ja": "55年連続増配の超高配当銘柄。喫煙率低下を値上げで補い1桁台半ばの増配ペースと7%超の利回りを維持。"
-    },
-    {
-      "ticker": "PM",
-      "market": "US",
-      "name_ja": "フィリップ・モリス・インターナショナル",
-      "name_en": "Philip Morris International Inc.",
-      "sector": "生活必需品",
-      "annual_dividend_forecast": 5.4,
-      "currency": "USD",
-      "dividend_yield_percent": 4.2,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [1, 4, 7, 10],
-      "consecutive_years": 16,
-      "ai_summary_ja": "加熱式たばこIQOSや経口ニコチン製品が成長を牽引。分割会社化以降毎年連続増配を継続している。"
-    },
-    {
-      "ticker": "BTI",
-      "market": "US",
-      "name_ja": "ブリティッシュ・アメリカン・タバコ (ADR)",
-      "name_en": "British American Tobacco p.l.c.",
-      "sector": "生活必需品",
-      "annual_dividend_forecast": 3.0,
-      "currency": "USD",
-      "dividend_yield_percent": 8.0,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [2, 5, 8, 11],
-      "consecutive_years": 25,
-      "ai_summary_ja": "英国籍ADRで外国源泉税が非課税となる点が特徴。8%前後の超高配当と減債・自社株買いを並行推進。"
-    },
-    {
-      "ticker": "O",
-      "market": "US",
-      "name_ja": "リアルティ・インカム",
-      "name_en": "Realty Income Corporation",
-      "sector": "米国REIT",
-      "annual_dividend_forecast": 3.16,
-      "currency": "USD",
-      "dividend_yield_percent": 5.5,
-      "ex_dividend_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "payment_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "consecutive_years": 30,
-      "ai_summary_ja": "「毎月配当会社」として知られる30年連続増配の米国最大手商業REIT。トリプルネット契約で安定性が高い。"
-    },
-    {
-      "ticker": "ARCC",
-      "market": "US",
-      "name_ja": "エイリス・キャピタル",
-      "name_en": "Ares Capital Corporation",
-      "sector": "米国金融(BDC)",
-      "annual_dividend_forecast": 1.92,
-      "currency": "USD",
-      "dividend_yield_percent": 8.8,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [3, 6, 9, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 4,
-      "ai_summary_ja": "米国最大級のBDC銘柄。中堅企業向け直接融資の金利収入を原資に8〜9%台の超高配当を維持している。"
-    },
-    {
-      "ticker": "MAIN",
-      "market": "US",
-      "name_ja": "メイン・ストリート・キャピタル",
-      "name_en": "Main Street Capital Corporation",
-      "sector": "米国金融(BDC)",
-      "annual_dividend_forecast": 2.94,
-      "currency": "USD",
-      "dividend_yield_percent": 5.6,
-      "ex_dividend_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "payment_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "consecutive_years": 3,
-      "ai_summary_ja": "毎月配当に加えて好業績時には補足特別配当を実施する優良BDC。保守的な運営と自己資本運用が強み。"
-    },
-    {
-      "ticker": "IBM",
-      "market": "US",
-      "name_ja": "IBM",
-      "name_en": "International Business Machines Corporation",
-      "sector": "情報技術",
-      "annual_dividend_forecast": 6.68,
-      "currency": "USD",
-      "dividend_yield_percent": 3.1,
-      "ex_dividend_months": [2, 5, 8, 11],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": 29,
-      "ai_summary_ja": "29年連続増配のハイブリッドクラウド・AI企業。ソフトウェア事業拡大により安定したフリーCFを確保。"
-    },
-    {
-      "ticker": "CSCO",
-      "market": "US",
-      "name_ja": "シスコシステムズ",
-      "name_en": "Cisco Systems, Inc.",
-      "sector": "情報技術",
-      "annual_dividend_forecast": 1.6,
-      "currency": "USD",
-      "dividend_yield_percent": 2.8,
-      "ex_dividend_months": [1, 4, 7, 10],
-      "payment_months": [1, 4, 7, 10],
-      "consecutive_years": 13,
-      "ai_summary_ja": "ネットワーク機器・セキュリティ大手の連続増配株。サブスクリプション比率の上昇が安定配当を牽引。"
-    },
-    {
-      "ticker": "TXN",
-      "market": "US",
-      "name_ja": "テキサス・インスツルメンツ",
-      "name_en": "Texas Instruments Incorporated",
-      "sector": "情報技術",
-      "annual_dividend_forecast": 5.44,
-      "currency": "USD",
-      "dividend_yield_percent": 2.7,
-      "ex_dividend_months": [1, 4, 7, 10],
-      "payment_months": [2, 5, 8, 11],
-      "consecutive_years": 21,
-      "ai_summary_ja": "アナログ半導体最大手で20年超連続増配。フリーCFの株主還元を経営の中核に据える高還元企業。"
-    },
-    {
-      "ticker": "AVGO",
-      "market": "US",
-      "name_ja": "ブロードコム",
-      "name_en": "Broadcom Inc.",
-      "sector": "情報技術",
-      "annual_dividend_forecast": 2.36,
-      "currency": "USD",
-      "dividend_yield_percent": 1.3,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": 14,
-      "ai_summary_ja": "AI半導体とインフラソフトで急成長しつつ、前年度フリーCFの約50%を配当に充てる高い増配率が魅力。"
-    },
-    {
-      "ticker": "AAPL",
-      "market": "US",
-      "name_ja": "アップル",
-      "name_en": "Apple Inc.",
-      "sector": "情報技術",
-      "annual_dividend_forecast": 1.0,
-      "currency": "USD",
-      "dividend_yield_percent": 0.45,
-      "ex_dividend_months": [2, 5, 8, 11],
-      "payment_months": [2, 5, 8, 11],
-      "consecutive_years": 12,
-      "ai_summary_ja": "配当利回りは0.5%未満だが毎年増配を継続。莫大なキャッシュフローの多くは大規模な自社株買いに充当。"
-    },
-    {
-      "ticker": "MSFT",
-      "market": "US",
-      "name_ja": "マイクロソフト",
-      "name_en": "Microsoft Corporation",
-      "sector": "情報技術",
-      "annual_dividend_forecast": 3.32,
-      "currency": "USD",
-      "dividend_yield_percent": 0.8,
-      "ex_dividend_months": [2, 5, 8, 11],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": 20,
-      "ai_summary_ja": "クラウド・AI成長を背景に年率10%前後の高ペース増配を20年継続するAAA格付けの成長増配銘柄。"
-    },
-    {
-      "ticker": "JPM",
-      "market": "US",
-      "name_ja": "JPモルガン・チェース",
-      "name_en": "JPMorgan Chase & Co.",
-      "sector": "米国金融",
-      "annual_dividend_forecast": 5.0,
-      "currency": "USD",
-      "dividend_yield_percent": 2.2,
-      "ex_dividend_months": [1, 4, 7, 10],
-      "payment_months": [1, 4, 7, 10],
-      "consecutive_years": 14,
-      "ai_summary_ja": "米銀最大手の圧倒的収益力を背景に配当引き上げと自社株買いを積極推進。自己資本規制にも強い余裕を持つ。"
-    },
-    {
-      "ticker": "MCD",
-      "market": "US",
-      "name_ja": "マクドナルド",
-      "name_en": "McDonald's Corporation",
-      "sector": "一般消費財",
-      "annual_dividend_forecast": 7.08,
-      "currency": "USD",
-      "dividend_yield_percent": 2.4,
-      "ex_dividend_months": [2, 5, 8, 11],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": 48,
-      "ai_summary_ja": "48年連続増配のフランチャイズ収益モデル。ロイヤルティ収入の安定性によりインフレ局面でも増配を維持。"
-    },
-    {
-      "ticker": "WMT",
-      "market": "US",
-      "name_ja": "ウォルマート",
-      "name_en": "Walmart Inc.",
-      "sector": "生活必需品",
-      "annual_dividend_forecast": 0.83,
-      "currency": "USD",
-      "dividend_yield_percent": 1.0,
-      "ex_dividend_months": [3, 5, 8, 12],
-      "payment_months": [1, 4, 5, 9],
-      "consecutive_years": 51,
-      "ai_summary_ja": "51年連続増配の米小売最大手。EC・広告事業の利益率改善が加わり増配ペースがやや加速傾向。"
-    },
-    {
-      "ticker": "HD",
-      "market": "US",
-      "name_ja": "ホーム・デポ",
-      "name_en": "The Home Depot, Inc.",
-      "sector": "一般消費財",
-      "annual_dividend_forecast": 9.0,
-      "currency": "USD",
-      "dividend_yield_percent": 2.3,
-      "ex_dividend_months": [3, 6, 9, 12],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": 15,
-      "ai_summary_ja": "住宅修繕需要に支えられた高収益・高ROE企業。配当性向55%程度を維持しつつ積極的な連続増配を継続。"
-    },
-    {
-      "ticker": "CAT",
-      "market": "US",
-      "name_ja": "キャタピラー",
-      "name_en": "Caterpillar Inc.",
-      "sector": "資本財",
-      "annual_dividend_forecast": 5.64,
-      "currency": "USD",
-      "dividend_yield_percent": 1.5,
-      "ex_dividend_months": [1, 4, 7, 10],
-      "payment_months": [2, 5, 8, 11],
-      "consecutive_years": 31,
-      "ai_summary_ja": "30年超連続増配の配当貴族。インフラ投資・資源需要を捉えフリーCFのほぼ全額を配当と自社株買いに還元。"
-    },
-    {
-      "ticker": "LMT",
-      "market": "US",
-      "name_ja": "ロッキード・マーティン",
-      "name_en": "Lockheed Martin Corporation",
-      "sector": "資本財",
-      "annual_dividend_forecast": 13.2,
-      "currency": "USD",
-      "dividend_yield_percent": 2.5,
-      "ex_dividend_months": [2, 5, 8, 11],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": 22,
-      "ai_summary_ja": "世界最大の防衛企業で22年連続増配。長期契約に基づく安定受注残が景気非感応型の配当を支える。"
-    },
-    {
-      "ticker": "NEE",
-      "market": "US",
-      "name_ja": "ネクステラ・エナジー",
-      "name_en": "NextEra Energy, Inc.",
-      "sector": "公益事業",
-      "annual_dividend_forecast": 2.06,
-      "currency": "USD",
-      "dividend_yield_percent": 2.7,
-      "ex_dividend_months": [2, 5, 8, 11],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": 30,
-      "ai_summary_ja": "フロリダ電力と再生可能エネルギー最大手。年率約10%の増配目標を掲げる30年連続増配の公益株。"
-    },
-    {
-      "ticker": "PFE",
-      "market": "US",
-      "name_ja": "ファイザー",
-      "name_en": "Pfizer Inc.",
-      "sector": "ヘルスケア",
-      "annual_dividend_forecast": 1.68,
-      "currency": "USD",
-      "dividend_yield_percent": 6.4,
-      "ex_dividend_months": [1, 5, 7, 11],
-      "payment_months": [3, 6, 9, 12],
-      "consecutive_years": 15,
-      "ai_summary_ja": "買収後の負債圧縮とコスト削減を進める中、経営陣は配当維持を重視。6%超の利回りだがパイプライン進捗に注意。"
-    },
-    {
-      "ticker": "6501.T",
-      "market": "JP",
-      "name_ja": "日立製作所",
-      "name_en": "Hitachi, Ltd.",
-      "sector": "電気機器",
-      "annual_dividend_forecast": 40.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 1.1,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 5,
-      "ai_summary_ja": "ルマーダ事業や送配電網の好調で業績拡大し株式5分割後も増配基調。自社株買いと合わせた総還元を重視。"
-    },
-    {
-      "ticker": "6503.T",
-      "market": "JP",
-      "name_ja": "三菱電機",
-      "name_en": "Mitsubishi Electric Corporation",
-      "sector": "電気機器",
-      "annual_dividend_forecast": 50.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 2.0,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 3,
-      "ai_summary_ja": "FA・防衛・ビルシステム等の収益改善を背景に配当性向35%目安で安定・増配傾向を継続。"
-    },
-    {
-      "ticker": "6752.T",
-      "market": "JP",
-      "name_ja": "パナソニック ホールディングス",
-      "name_en": "Panasonic Holdings Corporation",
-      "sector": "電気機器",
-      "annual_dividend_forecast": 35.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 2.4,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 2,
-      "ai_summary_ja": "車載電池・電装・サプライチェーンソフトの成長投資を進めつつ、安定した35円前後の配当を維持。"
-    },
-    {
-      "ticker": "7011.T",
-      "market": "JP",
-      "name_ja": "三菱重工業",
-      "name_en": "Mitsubishi Heavy Industries, Ltd.",
-      "sector": "機械",
-      "annual_dividend_forecast": 22.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 1.0,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 4,
-      "ai_summary_ja": "防衛・ガスタービン・原子力の受注拡大を背景に株式10分割後も連続増配を実施している。"
+      "ai_summary_ja": "累進配当方針と配当性向35%程度を指標とし安定高配当を維持。"
     },
     {
       "ticker": "8015.T",
@@ -1950,206 +798,156 @@
       "annual_dividend_forecast": 100.0,
       "currency": "JPY",
       "dividend_yield_percent": 3.5,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 15,
-      "ai_summary_ja": "株式3分割後も15年連続増配基調のトヨタ系商社。アフリカ・再エネ・車載電池関連が収益を牽引。"
+      "ai_summary_ja": "株式分割調整後も長期増配を継続。配当性向35%以上を目安に安定的増配。"
     },
     {
-      "ticker": "9735.T",
+      "ticker": "8052.T",
       "market": "JP",
-      "name_ja": "セコム",
-      "name_en": "SECOM CO., LTD.",
-      "sector": "サービス業",
+      "name_ja": "椿本興業",
+      "name_en": "Tsubakimoto Kogyo Co., Ltd.",
+      "sector": "卸売業",
       "annual_dividend_forecast": 95.0,
       "currency": "JPY",
-      "dividend_yield_percent": 1.9,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 5,
-      "ai_summary_ja": "警備契約のストック収益により不況耐性が極めて高く、株式2分割後も増配方針を堅持。"
-    },
-    {
-      "ticker": "2269.T",
-      "market": "JP",
-      "name_ja": "明治ホールディングス",
-      "name_en": "Meiji Holdings Co., Ltd.",
-      "sector": "食料品",
-      "annual_dividend_forecast": 100.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.0,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 11,
-      "ai_summary_ja": "配当性向40%以上と累進的還元を掲げる食品・医薬企業。10年超の連続増配と食品優待が魅力。"
-    },
-    {
-      "ticker": "4507.T",
-      "market": "JP",
-      "name_ja": "塩野義製薬",
-      "name_en": "Shionogi & Co., Ltd.",
-      "sector": "医薬品",
-      "annual_dividend_forecast": 58.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 2.7,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 13,
-      "ai_summary_ja": "株式3分割後も13期連続増配を継続。HIVロイヤリティと感染症薬の潤沢なキャッシュが配当原資。"
-    },
-    {
-      "ticker": "4188.T",
-      "market": "JP",
-      "name_ja": "三菱ケミカルグループ",
-      "name_en": "Mitsubishi Chemical Group Corporation",
-      "sector": "化学",
-      "annual_dividend_forecast": 32.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.9,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 2,
-      "ai_summary_ja": "事業ポートフォリオ再編を進めつつ配当性向30%〜35%を目安に安定的な配当水準を維持。"
-    },
-    {
-      "ticker": "4042.T",
-      "market": "JP",
-      "name_ja": "東ソー",
-      "name_en": "Tosoh Corporation",
-      "sector": "化学",
-      "annual_dividend_forecast": 90.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 4.5,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "dividend_yield_percent": 3.7,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 3,
-      "ai_summary_ja": "高機能材料の安定収益に加えDOE等を意識し4%超の高利回りを維持。下限意識の還元が定着。"
+      "ai_summary_ja": "配当性向40%を目処とし業績に応じた安定的かつ積極的な配当を行う。"
     },
     {
-      "ticker": "5019.T",
+      "ticker": "8020.T",
       "market": "JP",
-      "name_ja": "出光興産",
-      "name_en": "Idemitsu Kosan Co., Ltd.",
-      "sector": "石油・石炭製品",
-      "annual_dividend_forecast": 36.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.5,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 3,
-      "ai_summary_ja": "株式5分割後も総還元性向50%以上の枠組みで下限配当を意識し、安定した配当と自社株買いを実施。"
-    },
-    {
-      "ticker": "5713.T",
-      "market": "JP",
-      "name_ja": "住友金属鉱山",
-      "name_en": "Sumitomo Metal Mining Co., Ltd.",
-      "sector": "非鉄金属",
-      "annual_dividend_forecast": 104.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 2.7,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 1,
-      "ai_summary_ja": "配当性向35%以上かつDOE1.5%以上を下限とする方針。金・銅相場や車載電池材料の収益で還元変動あり。"
-    },
-    {
-      "ticker": "9508.T",
-      "market": "JP",
-      "name_ja": "九州電力",
-      "name_en": "Kyushu Electric Power Company, Incorporated",
-      "sector": "電気・ガス業",
-      "annual_dividend_forecast": 50.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.2,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 2,
-      "ai_summary_ja": "原発稼働による収益安定化を背景に増配を継続。半導体工場集積に伴う中長期的な電力需要増も期待。"
-    },
-    {
-      "ticker": "9513.T",
-      "market": "JP",
-      "name_ja": "電源開発 (J-POWER)",
-      "name_en": "Electric Power Development Co., Ltd.",
-      "sector": "電気・ガス業",
-      "annual_dividend_forecast": 100.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 3.8,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 3,
-      "ai_summary_ja": "下限配当100円を明示し安定配当への姿勢を強化。卸電力・再エネ開発の安定収益が配当を支える。"
-    },
-    {
-      "ticker": "1801.T",
-      "market": "JP",
-      "name_ja": "大成建設",
-      "name_en": "Taisei Corporation",
-      "sector": "建設業",
-      "annual_dividend_forecast": 150.0,
-      "currency": "JPY",
-      "dividend_yield_percent": 2.4,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 2,
-      "ai_summary_ja": "採算改善を背景に増配と積極的な自社株買いを実行。配当性向30%水準を維持しつつ還元を拡充。"
-    },
-    {
-      "ticker": "1802.T",
-      "market": "JP",
-      "name_ja": "大林組",
-      "name_en": "Obayashi Corporation",
-      "sector": "建設業",
-      "annual_dividend_forecast": 78.0,
+      "name_ja": "兼松",
+      "name_en": "Kanematsu Corporation",
+      "sector": "卸売業",
+      "annual_dividend_forecast": 105.0,
       "currency": "JPY",
       "dividend_yield_percent": 4.0,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 4,
-      "ai_summary_ja": "DOE5%程度を目安とする株主還元方針へ引き上げ、建設大手の中でも特に配当利回りの高さが際立つ。"
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 5,
+      "ai_summary_ja": "総還元性向50%以上および配当性向35%以上を基準に安定増配を継続。"
     },
     {
-      "ticker": "1812.T",
+      "ticker": "7459.T",
       "market": "JP",
-      "name_ja": "鹿島建設",
-      "name_en": "Kajima Corporation",
-      "sector": "建設業",
-      "annual_dividend_forecast": 96.0,
+      "name_ja": "メディパルホールディングス",
+      "name_en": "MEDIPAL HOLDINGS CORPORATION",
+      "sector": "卸売業",
+      "annual_dividend_forecast": 60.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.5,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 8,
+      "ai_summary_ja": "安定した収益基盤をもとに配当性向30%程度を目処に安定増配を継続。"
+    },
+    {
+      "ticker": "9432.T",
+      "market": "JP",
+      "name_ja": "日本電信電話 (NTT)",
+      "name_en": "Nippon Telegraph and Telephone Corporation",
+      "sector": "情報・通信業",
+      "annual_dividend_forecast": 5.2,
       "currency": "JPY",
       "dividend_yield_percent": 3.4,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
-      "consecutive_years": 4,
-      "ai_summary_ja": "配当性向40%目安のもと国内外の開発・建築案件の好調で連続増配を継続している。"
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 14,
+      "ai_summary_ja": "株式分割後も累進配当と継続増配を掲げ安定的な株主還元を実施中。"
     },
     {
-      "ticker": "5101.T",
+      "ticker": "9433.T",
       "market": "JP",
-      "name_ja": "横浜ゴム",
-      "name_en": "The Yokohama Rubber Company, Limited",
-      "sector": "ゴム製品",
-      "annual_dividend_forecast": 98.0,
+      "name_ja": "KDDI",
+      "name_en": "KDDI Corporation",
+      "sector": "情報・通信業",
+      "annual_dividend_forecast": 145.0,
       "currency": "JPY",
-      "dividend_yield_percent": 2.9,
-      "ex_dividend_months": [6, 12],
-      "payment_months": [3, 9],
-      "consecutive_years": 5,
-      "ai_summary_ja": "農機・建機向けオフハイウェイタイヤの収益貢献を背景に増配基調を継続している。"
+      "dividend_yield_percent": 3.0,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 23,
+      "ai_summary_ja": "配当性向40%超を掲げ20年以上連続で増配を維持する安定銘柄。"
     },
     {
-      "ticker": "5201.T",
+      "ticker": "9434.T",
       "market": "JP",
-      "name_ja": "AGC",
-      "name_en": "AGC Inc.",
-      "sector": "ガラス・土石製品",
-      "annual_dividend_forecast": 210.0,
+      "name_ja": "ソフトバンク",
+      "name_en": "SoftBank Corp.",
+      "sector": "情報・通信業",
+      "annual_dividend_forecast": 8.6,
       "currency": "JPY",
-      "dividend_yield_percent": 4.6,
-      "ex_dividend_months": [6, 12],
-      "payment_months": [3, 9],
+      "dividend_yield_percent": 4.3,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 6,
+      "ai_summary_ja": "株式分割後も配当性向85%程度を目安に高配当水準を維持する方針。"
+    },
+    {
+      "ticker": "9984.T",
+      "market": "JP",
+      "name_ja": "ソフトバンクグループ",
+      "name_en": "SoftBank Group Corp.",
+      "sector": "情報・通信業",
+      "annual_dividend_forecast": 44.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 0.5,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 5,
-      "ai_summary_ja": "DOE3%程度を目安とし減配せず1株210円の安定配当を継続。6月・12月銘柄の高配当主力株。"
+      "ai_summary_ja": "年間44円の安定配当を維持し、余剰資金は自社株買いや投資に重点配分。"
     },
     {
       "ticker": "9613.T",
@@ -2160,10 +958,4404 @@
       "annual_dividend_forecast": 25.0,
       "currency": "JPY",
       "dividend_yield_percent": 1.0,
-      "ex_dividend_months": [3, 9],
-      "payment_months": [6, 12],
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
       "consecutive_years": 4,
-      "ai_summary_ja": "国内外のDX・データセンター投資を強化しつつ、緩やかな連続増配を維持している。"
+      "ai_summary_ja": "成長投資と安定配当のバランスを考慮し着実な増配傾向をたどる。"
+    },
+    {
+      "ticker": "9766.T",
+      "market": "JP",
+      "name_ja": "コナミグループ",
+      "name_en": "KONAMI GROUP CORPORATION",
+      "sector": "情報・通信業",
+      "annual_dividend_forecast": 134.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.1,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "連結配当性向30%以上を基本方針とし業績連動で安定増配を図る。"
+    },
+    {
+      "ticker": "4689.T",
+      "market": "JP",
+      "name_ja": "LINEヤフー",
+      "name_en": "LY Corporation",
+      "sector": "情報・通信業",
+      "annual_dividend_forecast": 5.6,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.4,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "安定した利益創出を元に成長投資と株主還元の両立を進める。"
+    },
+    {
+      "ticker": "4755.T",
+      "market": "JP",
+      "name_ja": "楽天グループ",
+      "name_en": "Rakuten Group, Inc.",
+      "sector": "サービス業",
+      "annual_dividend_forecast": 0.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 0.0,
+      "ex_dividend_months": [
+        12
+      ],
+      "payment_months": [
+        3
+      ],
+      "consecutive_years": 0,
+      "ai_summary_ja": "モバイル基地局投資等に伴い財務健全化を最優先しており無配が継続。復配時期は未定。"
+    },
+    {
+      "ticker": "9735.T",
+      "market": "JP",
+      "name_ja": "セコム",
+      "name_en": "SECOM CO., LTD.",
+      "sector": "サービス業",
+      "annual_dividend_forecast": 95.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.85,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 5,
+      "ai_summary_ja": "警備首位。強固な財務基盤とストック型収益を背景に増配基調を維持し、安定配当を継続方針。"
+    },
+    {
+      "ticker": "2914.T",
+      "market": "JP",
+      "name_ja": "日本たばこ産業 (JT)",
+      "name_en": "Japan Tobacco Inc.",
+      "sector": "食料品",
+      "annual_dividend_forecast": 194.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.65,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "配当性向75%を目安に高水準な株主還元を実施。海外たばこ事業の堅調さを背景に高配当を維持。"
+    },
+    {
+      "ticker": "2802.T",
+      "market": "JP",
+      "name_ja": "味の素",
+      "name_en": "Ajinomoto Co., Inc.",
+      "sector": "食料品",
+      "annual_dividend_forecast": 80.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.32,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 6,
+      "ai_summary_ja": "累進配当を掲げ、事業利益成長と連動した継続的な増配方針を堅持。自社株買いも機動的。"
+    },
+    {
+      "ticker": "2503.T",
+      "market": "JP",
+      "name_ja": "キリンホールディングス",
+      "name_en": "Kirin Holdings Company, Limited",
+      "sector": "食料品",
+      "annual_dividend_forecast": 71.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.35,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": 10,
+      "ai_summary_ja": "連結配当性向40%以上を掲げ、10期以上の非減配・増配実績を誇る安定的な還元方針。"
+    },
+    {
+      "ticker": "2502.T",
+      "market": "JP",
+      "name_ja": "アサヒグループホールディングス",
+      "name_en": "Asahi Group Holdings, Ltd.",
+      "sector": "食料品",
+      "annual_dividend_forecast": 49.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.88,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": 15,
+      "ai_summary_ja": "株式分割調整後。長年の連続増配を継続しており、安定増配と総還元性向向上を重視。"
+    },
+    {
+      "ticker": "2587.T",
+      "market": "JP",
+      "name_ja": "サントリー食品インターナショナル",
+      "name_en": "Suntory Beverage & Food Limited",
+      "sector": "食料品",
+      "annual_dividend_forecast": 95.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.92,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "安定的な配当の継続を基本とし、配当性向40%程度を目指した利益成長連動型の還元。"
+    },
+    {
+      "ticker": "2269.T",
+      "market": "JP",
+      "name_ja": "明治ホールディングス",
+      "name_en": "Meiji Holdings Co., Ltd.",
+      "sector": "食料品",
+      "annual_dividend_forecast": 100.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.02,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 11,
+      "ai_summary_ja": "配当性向40%以上と非減配の配当方針を堅持。価格改定効果等を背景に増配傾向を継続中。"
+    },
+    {
+      "ticker": "2871.T",
+      "market": "JP",
+      "name_ja": "ニチレイ",
+      "name_en": "Nichirei Corporation",
+      "sector": "食料品",
+      "annual_dividend_forecast": 84.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.15,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 5,
+      "ai_summary_ja": "冷凍食品首位。配当性向35%程度を目安とし、堅調な業績を背景に安定増配を継続。"
+    },
+    {
+      "ticker": "2897.T",
+      "market": "JP",
+      "name_ja": "日清食品ホールディングス",
+      "name_en": "Nissin Foods Holdings Co., Ltd.",
+      "sector": "食料品",
+      "annual_dividend_forecast": 65.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.65,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 6,
+      "ai_summary_ja": "分割後調整値。グローバルな即席麺成長を背景に配当性向40%以上を目標とした積極還元。"
+    },
+    {
+      "ticker": "4452.T",
+      "market": "JP",
+      "name_ja": "花王",
+      "name_en": "Kao Corporation",
+      "sector": "化学",
+      "annual_dividend_forecast": 152.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.28,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": 35,
+      "ai_summary_ja": "日本企業最長クラスの35期連続増配記録を保持。安定したキャッシュフローと株主還元を重視。"
+    },
+    {
+      "ticker": "4901.T",
+      "market": "JP",
+      "name_ja": "富士フイルムホールディングス",
+      "name_en": "FUJIFILM Holdings Corporation",
+      "sector": "化学",
+      "annual_dividend_forecast": 60.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.78,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 14,
+      "ai_summary_ja": "ヘルスケア等の成長で分割後も連続増配を維持。配当性向30%以上を目安に還元拡大中。"
+    },
+    {
+      "ticker": "4911.T",
+      "market": "JP",
+      "name_ja": "資生堂",
+      "name_en": "Shiseido Company, Limited",
+      "sector": "化学",
+      "annual_dividend_forecast": 60.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.1,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": 0,
+      "ai_summary_ja": "中国市場の影響等で業績変動はあるがDOEや安定配当を考慮し一定水準の還元を維持。"
+    },
+    {
+      "ticker": "8267.T",
+      "market": "JP",
+      "name_ja": "イオン",
+      "name_en": "AEON Co., Ltd.",
+      "sector": "小売業",
+      "annual_dividend_forecast": 40.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.12,
+      "ex_dividend_months": [
+        2,
+        8
+      ],
+      "payment_months": [
+        5,
+        11
+      ],
+      "consecutive_years": 5,
+      "ai_summary_ja": "株主優待と合わせて安定配当を維持。連結配当性向30%以上を目標とし堅実な還元方針。"
+    },
+    {
+      "ticker": "2702.T",
+      "market": "JP",
+      "name_ja": "日本マクドナルドホールディングス",
+      "name_en": "McDonald's Holdings Company (Japan), Ltd.",
+      "sector": "小売業",
+      "annual_dividend_forecast": 45.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 0.68,
+      "ex_dividend_months": [
+        12
+      ],
+      "payment_months": [
+        3
+      ],
+      "consecutive_years": 5,
+      "ai_summary_ja": "年1回期末一括配当。株主優待と合わせて個人投資家人気が高く、安定配当基調を継続。"
+    },
+    {
+      "ticker": "3048.T",
+      "market": "JP",
+      "name_ja": "ビックカメラ",
+      "name_en": "Bic Camera Inc.",
+      "sector": "小売業",
+      "annual_dividend_forecast": 36.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.25,
+      "ex_dividend_months": [
+        2,
+        8
+      ],
+      "payment_months": [
+        5,
+        11
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "インバウンド回復と都心店舗伸長により増配。配当性向40%を目安とした業績連動還元。"
+    },
+    {
+      "ticker": "9831.T",
+      "market": "JP",
+      "name_ja": "ヤマダホールディングス",
+      "name_en": "YAMADA HOLDINGS CO., LTD.",
+      "sector": "小売業",
+      "annual_dividend_forecast": 13.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.95,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "配当性向30%以上を基本方針とし、自社株買いや優待と組み合わせた総還元を実施。"
+    },
+    {
+      "ticker": "3197.T",
+      "market": "JP",
+      "name_ja": "すかいらーくホールディングス",
+      "name_en": "Skylark Holdings Co., Ltd.",
+      "sector": "小売業",
+      "annual_dividend_forecast": 18.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 0.78,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "業績回復に伴い復配・増配傾向。配当性向30%以上を意識し優待と合わせた還元を実施。"
+    },
+    {
+      "ticker": "7550.T",
+      "market": "JP",
+      "name_ja": "ゼンショーホールディングス",
+      "name_en": "ZENSHO HOLDINGS CO., LTD.",
+      "sector": "小売業",
+      "annual_dividend_forecast": 70.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 0.88,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "国内外でのM&Aと出店攻勢で高成長が続き、増配トレンドを継続。優待も充実。"
+    },
+    {
+      "ticker": "9861.T",
+      "market": "JP",
+      "name_ja": "吉野家ホールディングス",
+      "name_en": "YOSHINOYA HOLDINGS CO., LTD.",
+      "sector": "小売業",
+      "annual_dividend_forecast": 20.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 0.69,
+      "ex_dividend_months": [
+        2,
+        8
+      ],
+      "payment_months": [
+        5,
+        11
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "インバウンドや価格改定効果で業績堅調。安定配当と株主優待券を柱とした還元方針。"
+    },
+    {
+      "ticker": "7616.T",
+      "market": "JP",
+      "name_ja": "コロワイド",
+      "name_en": "COLOWIDE Co., Ltd.",
+      "sector": "小売業",
+      "annual_dividend_forecast": 5.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 0.28,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "配当利回りは控えめながら年5円の安定配当を維持。高利回りな株主優待ポイントが主軸。"
+    },
+    {
+      "ticker": "3382.T",
+      "market": "JP",
+      "name_ja": "セブン＆アイ・ホールディングス",
+      "name_en": "Seven & i Holdings Co., Ltd.",
+      "sector": "小売業",
+      "annual_dividend_forecast": 40.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.72,
+      "ex_dividend_months": [
+        2,
+        8
+      ],
+      "payment_months": [
+        5,
+        11
+      ],
+      "consecutive_years": 5,
+      "ai_summary_ja": "コンビニ事業集中や構造改革を進めつつ、非減配と配当性向向上により安定増配を方針化。"
+    },
+    {
+      "ticker": "9983.T",
+      "market": "JP",
+      "name_ja": "ファーストリテイリング",
+      "name_en": "Fast Retailing Co., Ltd.",
+      "sector": "小売業",
+      "annual_dividend_forecast": 450.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 0.89,
+      "ex_dividend_months": [
+        2,
+        8
+      ],
+      "payment_months": [
+        5,
+        11
+      ],
+      "consecutive_years": 5,
+      "ai_summary_ja": "海外事業の牽引により高収益が持続。配当性向35%程度を目安に継続的な増配姿勢。"
+    },
+    {
+      "ticker": "3092.T",
+      "market": "JP",
+      "name_ja": "ZOZO",
+      "name_en": "ZOZO, Inc.",
+      "sector": "小売業",
+      "annual_dividend_forecast": 109.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.75,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "高配当性向（70%以上）を維持。強固な財務体質と高収益モデルを背景に積極還元。"
+    },
+    {
+      "ticker": "8136.T",
+      "market": "JP",
+      "name_ja": "サンリオ",
+      "name_en": "Sanrio Company, Ltd.",
+      "sector": "卸売業",
+      "annual_dividend_forecast": 45.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.05,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "分割後調整値。IPビジネス好調により大幅増益が続き、配当性向向上とともに増配を推進。"
+    },
+    {
+      "ticker": "7532.T",
+      "market": "JP",
+      "name_ja": "パン・パシフィック・インターナショナルホールディングス",
+      "name_en": "Pan Pacific International Holdings Corporation",
+      "sector": "小売業",
+      "annual_dividend_forecast": 27.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 0.72,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": 21,
+      "ai_summary_ja": "配当性向20%以上を基本とし、30期以上の連続増配実績を誇る。安定成長と積極的な株主還元姿勢を継続。"
+    },
+    {
+      "ticker": "1605.T",
+      "market": "JP",
+      "name_ja": "INPEX",
+      "name_en": "INPEX CORPORATION",
+      "sector": "鉱業",
+      "annual_dividend_forecast": 86.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.2,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "総還元性向40%以上を基本方針とし、累進的配当を導入。資源価格連動ながら積極的な増配と自社株買いを実施。"
+    },
+    {
+      "ticker": "5020.T",
+      "market": "JP",
+      "name_ja": "ENEOSホールディングス",
+      "name_en": "ENEOS Holdings, Inc.",
+      "sector": "石油・石炭製品",
+      "annual_dividend_forecast": 26.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.4,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "中期経営計画にて累進配当の導入を掲げ下限22円を設定。在庫影響除きベースで安定的な高水準還元を推進。"
+    },
+    {
+      "ticker": "5019.T",
+      "market": "JP",
+      "name_ja": "出光興産",
+      "name_en": "Idemitsu Kosan Co., Ltd.",
+      "sector": "石油・石炭製品",
+      "annual_dividend_forecast": 36.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.5,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "総還元性向50%以上を掲げ、安定配当の継続と機動的な自己株式取得を推進。株式分割後も安定推移。"
+    },
+    {
+      "ticker": "5021.T",
+      "market": "JP",
+      "name_ja": "コスモエネルギーホールディングス",
+      "name_en": "Cosmo Energy Holdings Co., Ltd.",
+      "sector": "石油・石炭製品",
+      "annual_dividend_forecast": 300.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.15,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "年間配当下限を設ける累進配当方針を採用し、総還元性向60%以上を目指す積極的な還元姿勢が特徴。"
+    },
+    {
+      "ticker": "5016.T",
+      "market": "JP",
+      "name_ja": "JX金属",
+      "name_en": "JX Advanced Metals Corporation",
+      "sector": "非鉄金属",
+      "annual_dividend_forecast": 25.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.0,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "半導体・先端素材分野への投資と並行し、配当性向30%程度を目安に業績に応じた安定配当を実施。"
+    },
+    {
+      "ticker": "5857.T",
+      "market": "JP",
+      "name_ja": "AREホールディングス",
+      "name_en": "ARE Holdings, Inc.",
+      "sector": "非鉄金属",
+      "annual_dividend_forecast": 80.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.4,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "配当性向40%を目安とし、貴金属リサイクル等の収益基盤を背景に安定した高配当方針を維持。"
+    },
+    {
+      "ticker": "5713.T",
+      "market": "JP",
+      "name_ja": "住友金属鉱山",
+      "name_en": "Sumitomo Metal Mining Co., Ltd.",
+      "sector": "非鉄金属",
+      "annual_dividend_forecast": 104.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.7,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 1,
+      "ai_summary_ja": "連結配当性向35%以上を基準とする業績連動型。資源価格および為替動向による変動に注意が必要。"
+    },
+    {
+      "ticker": "5802.T",
+      "market": "JP",
+      "name_ja": "住友電気工業",
+      "name_en": "Sumitomo Electric Industries, Ltd.",
+      "sector": "非鉄金属",
+      "annual_dividend_forecast": 72.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.75,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "配当性向30%程度を基本とし、ワイヤーハーネスや電力ケーブル等の好調を背景に連続増配基調を維持。"
+    },
+    {
+      "ticker": "5801.T",
+      "market": "JP",
+      "name_ja": "古河電気工業",
+      "name_en": "Furukawa Electric Co., Ltd.",
+      "sector": "非鉄金属",
+      "annual_dividend_forecast": 90.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.65,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "業績回復に伴い増配を再開。配当性向30%以上を念頭に事業収益性の改善に合わせた株主還元を志向。"
+    },
+    {
+      "ticker": "5401.T",
+      "market": "JP",
+      "name_ja": "日本製鉄",
+      "name_en": "Nippon Steel Corporation",
+      "sector": "鉄鋼",
+      "annual_dividend_forecast": 160.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 5.0,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "連結配当性向30%程度を目安とし、高水準の利益を背景に高配当を維持。市況変動への耐性を強化中。"
+    },
+    {
+      "ticker": "5411.T",
+      "market": "JP",
+      "name_ja": "JFEホールディングス",
+      "name_en": "JFE Holdings, Inc.",
+      "sector": "鉄鋼",
+      "annual_dividend_forecast": 100.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 5.2,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "配当性向30%程度を方針とし、高配当利回りを維持。鋼材需要動向に応じた柔軟な還元を実施。"
+    },
+    {
+      "ticker": "5406.T",
+      "market": "JP",
+      "name_ja": "神戸製鋼所",
+      "name_en": "Kobe Steel, Ltd.",
+      "sector": "鉄鋼",
+      "annual_dividend_forecast": 90.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 5.45,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "配当性向30%程度を基本とし、機械・電力事業等の安定収益を背景に高利回り水準を維持。"
+    },
+    {
+      "ticker": "9503.T",
+      "market": "JP",
+      "name_ja": "関西電力",
+      "name_en": "The Kansai Electric Power Company, Incorporated",
+      "sector": "電気・ガス業",
+      "annual_dividend_forecast": 60.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.1,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "原子力発電の高稼働を背景に業績が安定化し、増配基調。財務基盤回復と株主還元の両立を目指す。"
+    },
+    {
+      "ticker": "9502.T",
+      "market": "JP",
+      "name_ja": "中部電力",
+      "name_en": "Chubu Electric Power Co., Inc.",
+      "sector": "電気・ガス業",
+      "annual_dividend_forecast": 60.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.25,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "年間配当50円以上をベースに継続的・安定的な配当を実施。燃料調整等による業績改善が増配を後押し。"
+    },
+    {
+      "ticker": "9506.T",
+      "market": "JP",
+      "name_ja": "東北電力",
+      "name_en": "Tohoku Electric Power Co., Inc.",
+      "sector": "電気・ガス業",
+      "annual_dividend_forecast": 25.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.1,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "女川原発再稼働等を契機とした収益力回復に伴い復配・増配傾向。財務健全化と配当復元を優先。"
+    },
+    {
+      "ticker": "9508.T",
+      "market": "JP",
+      "name_ja": "九州電力",
+      "name_en": "Kyushu Electric Power Company, Incorporated",
+      "sector": "電気・ガス業",
+      "annual_dividend_forecast": 50.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.2,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "原発安定稼働による収益改善を反映し増配。安定的な配当支払いを基本方針として堅持。"
+    },
+    {
+      "ticker": "9513.T",
+      "market": "JP",
+      "name_ja": "電源開発",
+      "name_en": "Electric Power Development Co., Ltd.",
+      "sector": "電気・ガス業",
+      "annual_dividend_forecast": 100.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.8,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "連結総還元性向30%以上を目安とし、下限配当を設定して安定配当の継続姿勢を強化。"
+    },
+    {
+      "ticker": "9531.T",
+      "market": "JP",
+      "name_ja": "東京ガス",
+      "name_en": "Tokyo Gas Co., Ltd.",
+      "sector": "電気・ガス業",
+      "annual_dividend_forecast": 80.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.1,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "総還元性向50%程度を掲げ、増配および積極的な自社株買いを推進。安定的な株主還元方針。"
+    },
+    {
+      "ticker": "9532.T",
+      "market": "JP",
+      "name_ja": "大阪ガス",
+      "name_en": "Osaka Gas Co., Ltd.",
+      "sector": "電気・ガス業",
+      "annual_dividend_forecast": 95.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.9,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 5,
+      "ai_summary_ja": "減配を行わず利益成長に応じた増配を行う累進的配当を基本とし、中長期で安定還元を実施。"
+    },
+    {
+      "ticker": "9202.T",
+      "market": "JP",
+      "name_ja": "ANAホールディングス",
+      "name_en": "ANA HOLDINGS INC.",
+      "sector": "空運業",
+      "annual_dividend_forecast": 50.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.8,
+      "ex_dividend_months": [
+        3
+      ],
+      "payment_months": [
+        6
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "旅客需要の回復に伴い復配・増配基調。財務体質の改善を進めつつ期末一括配当を実施。"
+    },
+    {
+      "ticker": "9201.T",
+      "market": "JP",
+      "name_ja": "日本航空",
+      "name_en": "Japan Airlines Co., Ltd.",
+      "sector": "空運業",
+      "annual_dividend_forecast": 80.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.2,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "配当性向35%程度を目安とし、インバウンド需要回復を支えに中間・期末の安定配当を継続。"
+    },
+    {
+      "ticker": "9020.T",
+      "market": "JP",
+      "name_ja": "東日本旅客鉄道",
+      "name_en": "East Japan Railway Company",
+      "sector": "陸運業",
+      "annual_dividend_forecast": 60.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.1,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "株式分割（1:3）後も実質増配方針。総還元性向40%を目安に安定配当と自己株式取得を推進。"
+    },
+    {
+      "ticker": "9022.T",
+      "market": "JP",
+      "name_ja": "東海旅客鉄道",
+      "name_en": "Central Japan Railway Company",
+      "sector": "陸運業",
+      "annual_dividend_forecast": 30.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 0.9,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "株式分割（1:5）実施後も安定配当を継続。リニア建設投資と健全な財務規律を両立。"
+    },
+    {
+      "ticker": "9021.T",
+      "market": "JP",
+      "name_ja": "西日本旅客鉄道",
+      "name_en": "West Japan Railway Company",
+      "sector": "陸運業",
+      "annual_dividend_forecast": 72.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.6,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "配当性向40%程度を目標とし、分割後も着実な増配を継続。新幹線・在来線の需要回復が寄与。"
+    },
+    {
+      "ticker": "9005.T",
+      "market": "JP",
+      "name_ja": "東急",
+      "name_en": "TOKYU CORPORATION",
+      "sector": "陸運業",
+      "annual_dividend_forecast": 23.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.25,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "安定的な配当の継続を基本方針とし、業績動向を見極めつつ増配を推進。自己株式取得も適宜実施。"
+    },
+    {
+      "ticker": "9064.T",
+      "market": "JP",
+      "name_ja": "ヤマトホールディングス",
+      "name_en": "YAMATO HOLDINGS CO., LTD.",
+      "sector": "陸運業",
+      "annual_dividend_forecast": 46.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.65,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "連結配当性向30%以上およびDOE（純資産配当率）2%以上を目安に安定的・継続的な配当を目指す方針。"
+    },
+    {
+      "ticker": "9143.T",
+      "market": "JP",
+      "name_ja": "SGホールディングス",
+      "name_en": "SG HOLDINGS CO., LTD.",
+      "sector": "陸運業",
+      "annual_dividend_forecast": 52.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.35,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "連結配当性向30%以上を基本とし、利益成長に応じた株主還元を行う方針。市況変動に応じ配当水準を調整。"
+    },
+    {
+      "ticker": "9101.T",
+      "market": "JP",
+      "name_ja": "日本郵船",
+      "name_en": "Nippon Yusen Kabushiki Kaisha",
+      "sector": "海運業",
+      "annual_dividend_forecast": 260.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 5.2,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 1,
+      "ai_summary_ja": "配当性向30%を最低目標とし下限配当を設定。海況市況の動向により配当額が大きく変動する傾向あり。"
+    },
+    {
+      "ticker": "9104.T",
+      "market": "JP",
+      "name_ja": "商船三井",
+      "name_en": "Mitsui O.S.K. Lines, Ltd.",
+      "sector": "海運業",
+      "annual_dividend_forecast": 300.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 5.6,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 1,
+      "ai_summary_ja": "配当性向30%を目安とし、下限配当を導入しつつ利益還元を実施。市況のサイクルに配当が連動しやすい。"
+    },
+    {
+      "ticker": "9107.T",
+      "market": "JP",
+      "name_ja": "川崎汽船",
+      "name_en": "Kawasaki Kisen Kaisha, Ltd.",
+      "sector": "海運業",
+      "annual_dividend_forecast": 100.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.7,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "最適資本構成の維持と積極的な株主還元を両立。基礎配当に加え業績連動配当・自社株買いを機動的に実施。"
+    },
+    {
+      "ticker": "6301.T",
+      "market": "JP",
+      "name_ja": "コマツ",
+      "name_en": "Komatsu Ltd.",
+      "sector": "機械",
+      "annual_dividend_forecast": 167.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.0,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "連結配当性向40%以上を基本方針とし、連結業績に連動した安定配当を維持。近年は高水準の増配が継続。"
+    },
+    {
+      "ticker": "6326.T",
+      "market": "JP",
+      "name_ja": "クボタ",
+      "name_en": "Kubota Corporation",
+      "sector": "機械",
+      "annual_dividend_forecast": 48.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.2,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "将来の成長に向けた内部留保と安定的・継続的な株主還元の両立を重視。12月決算銘柄である点に留意。"
+    },
+    {
+      "ticker": "6367.T",
+      "market": "JP",
+      "name_ja": "ダイキン工業",
+      "name_en": "Daikin Industries, Ltd.",
+      "sector": "機械",
+      "annual_dividend_forecast": 260.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.35,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "連結DOE（株主資本配当率）3.0%以上を目標とし、安定的かつ継続的な増配方針を基本とする。"
+    },
+    {
+      "ticker": "7011.T",
+      "market": "JP",
+      "name_ja": "三菱重工業",
+      "name_en": "Mitsubishi Heavy Industries, Ltd.",
+      "sector": "機械",
+      "annual_dividend_forecast": 22.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.0,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "株式分割（1:10）実施済。防衛やエネルギープラント好調を背景に配当水準の引き上げを推進中。"
+    },
+    {
+      "ticker": "7012.T",
+      "market": "JP",
+      "name_ja": "川崎重工業",
+      "name_en": "Kawasaki Heavy Industries, Ltd.",
+      "sector": "輸送用機器",
+      "annual_dividend_forecast": 140.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.1,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "配当性向30%程度を中長期目標として安定的配当を実施。航空・車両事業の利益改善に伴い増配傾向。"
+    },
+    {
+      "ticker": "7013.T",
+      "market": "JP",
+      "name_ja": "IHI",
+      "name_en": "IHI Corporation",
+      "sector": "機械",
+      "annual_dividend_forecast": 120.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.4,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "航空エンジン等の業績回復を背景に配当再開・増配を実施。安定的な利益配分と成長投資を推進。"
+    },
+    {
+      "ticker": "6473.T",
+      "market": "JP",
+      "name_ja": "ジェイテクト",
+      "name_en": "JTEKT Corporation",
+      "sector": "機械",
+      "annual_dividend_forecast": 36.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.3,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "連結業績や将来の投資計画を総合勘案し、安定配当と配当性向30%程度を基本指標として還元を実施。"
+    },
+    {
+      "ticker": "6305.T",
+      "market": "JP",
+      "name_ja": "日立建機",
+      "name_en": "Hitachi Construction Machinery Co., Ltd.",
+      "sector": "機械",
+      "annual_dividend_forecast": 180.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.2,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "連結配当性向30〜40%を目安とし、業績に応じた弾力的な配当を実施。マイニング機械需要に連動。"
+    },
+    {
+      "ticker": "6758.T",
+      "market": "JP",
+      "name_ja": "ソニーグループ",
+      "name_en": "Sony Group Corporation",
+      "sector": "電気機器",
+      "annual_dividend_forecast": 20.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 0.7,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 10,
+      "ai_summary_ja": "株式分割（1:5）考慮後の予想。成長投資を最優先しつつ、長期的な連続増配を継続する還元方針。"
+    },
+    {
+      "ticker": "6861.T",
+      "market": "JP",
+      "name_ja": "キーエンス",
+      "name_en": "KEYENCE CORPORATION",
+      "sector": "電気機器",
+      "annual_dividend_forecast": 300.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 0.5,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "高い収益力と豊富なキャッシュを背景に継続的増配姿勢。配当利回りは低いが自己株式取得も適宜検討。"
+    },
+    {
+      "ticker": "7751.T",
+      "market": "JP",
+      "name_ja": "キヤノン",
+      "name_en": "Canon Inc.",
+      "sector": "電気機器",
+      "annual_dividend_forecast": 155.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.2,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        8
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "12月決算。中長期的な利益成長に合わせて安定的かつ継続的な増配を目指す方針。高利回りを維持。"
+    },
+    {
+      "ticker": "6501.T",
+      "market": "JP",
+      "name_ja": "日立製作所",
+      "name_en": "Hitachi, Ltd.",
+      "sector": "電気機器",
+      "annual_dividend_forecast": 40.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.1,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 5,
+      "ai_summary_ja": "株式分割（1:5）実施済。Lumada事業中心の成長投資と株主還元の両立を図り、継続増配を推進。"
+    },
+    {
+      "ticker": "6503.T",
+      "market": "JP",
+      "name_ja": "三菱電機",
+      "name_en": "Mitsubishi Electric Corporation",
+      "sector": "電気機器",
+      "annual_dividend_forecast": 50.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.0,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "配当性向やDOE等を総合的に勘案し、安定配当の継続と収益拡大に応じた還元充実を目指す。"
+    },
+    {
+      "ticker": "6701.T",
+      "market": "JP",
+      "name_ja": "日本電気 (NEC)",
+      "name_en": "NEC Corporation",
+      "sector": "電気機器",
+      "annual_dividend_forecast": 140.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.15,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "ITサービス好調により増配傾向。将来成長に向けた投資余力を確保しつつ安定増配を目指す。"
+    },
+    {
+      "ticker": "6702.T",
+      "market": "JP",
+      "name_ja": "富士通",
+      "name_en": "Fujitsu Limited",
+      "sector": "電気機器",
+      "annual_dividend_forecast": 28.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.05,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "株式分割（1:10）実施済。サービスソリューション強化に伴う収益向上に応じた安定増配を実施。"
+    },
+    {
+      "ticker": "6752.T",
+      "market": "JP",
+      "name_ja": "パナソニック ホールディングス",
+      "name_en": "Panasonic Holdings Corporation",
+      "sector": "電気機器",
+      "annual_dividend_forecast": 35.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.4,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "業績連動配当を基本としつつ、安定的な配当水準を意識。車載電池や空調事業の動向に業績が連動。"
+    },
+    {
+      "ticker": "6954.T",
+      "market": "JP",
+      "name_ja": "ファナック",
+      "name_en": "FANUC CORPORATION",
+      "sector": "電気機器",
+      "annual_dividend_forecast": 100.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.25,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "連結配当性向60%を目標とする高還元方針。業績変動に応じて配当額が上下しやすい点に留意。"
+    },
+    {
+      "ticker": "6971.T",
+      "market": "JP",
+      "name_ja": "京セラ",
+      "name_en": "KYOCERA Corporation",
+      "sector": "電気機器",
+      "annual_dividend_forecast": 50.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.6,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "株式分割（1:4）実施済。配当性向50%を目安とし、安定的・継続的な株主還元を重視する方針。"
+    },
+    {
+      "ticker": "6981.T",
+      "market": "JP",
+      "name_ja": "村田製作所",
+      "name_en": "Murata Manufacturing Co., Ltd.",
+      "sector": "電気機器",
+      "annual_dividend_forecast": 54.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.95,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "株式分割（1:3）実施済。配当性向目安を意識しつつ、中長期的な安定増配と設備投資を両立。"
+    },
+    {
+      "ticker": "8035.T",
+      "market": "JP",
+      "name_ja": "東京エレクトロン",
+      "name_en": "Tokyo Electron Limited",
+      "sector": "電気機器",
+      "annual_dividend_forecast": 570.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.25,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 1,
+      "ai_summary_ja": "配当性向50%を基本方針とし、業績連動性が高い。半導体市場回復に伴い増配基調にある。"
+    },
+    {
+      "ticker": "6146.T",
+      "market": "JP",
+      "name_ja": "ディスコ",
+      "name_en": "DISCO Corporation",
+      "sector": "機械",
+      "annual_dividend_forecast": 380.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 0.95,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 1,
+      "ai_summary_ja": "連結半期純利益の25%を基本配当とし業績連動。AI半導体需要による業績好調で高水準配当を維持。"
+    },
+    {
+      "ticker": "6857.T",
+      "market": "JP",
+      "name_ja": "アドバンテスト",
+      "name_en": "Advantest Corporation",
+      "sector": "電気機器",
+      "annual_dividend_forecast": 43.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 0.65,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "株式分割調整後。半導体試験装置の需要拡大により業績好調で、増配傾向を継続。"
+    },
+    {
+      "ticker": "7741.T",
+      "market": "JP",
+      "name_ja": "HOYA",
+      "name_en": "HOYA CORPORATION",
+      "sector": "精密機器",
+      "annual_dividend_forecast": 115.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 0.6,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 6,
+      "ai_summary_ja": "自社株買いを含む機動的な株主還元方針。配当は安定的な増配基調を維持している。"
+    },
+    {
+      "ticker": "7733.T",
+      "market": "JP",
+      "name_ja": "オリンパス",
+      "name_en": "Olympus Corporation",
+      "sector": "精密機器",
+      "annual_dividend_forecast": 20.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 0.85,
+      "ex_dividend_months": [
+        3
+      ],
+      "payment_months": [
+        6
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "期末一括配当を実施。医療分野への集中と安定配当の維持・向上を目指している。"
+    },
+    {
+      "ticker": "7974.T",
+      "market": "JP",
+      "name_ja": "任天堂",
+      "name_en": "Nintendo Co., Ltd.",
+      "sector": "その他製品",
+      "annual_dividend_forecast": 145.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.75,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 1,
+      "ai_summary_ja": "連結営業利益の33%を配当目安とする業績連動方針。次世代機展開を見据えた推移。"
+    },
+    {
+      "ticker": "4063.T",
+      "market": "JP",
+      "name_ja": "信越化学工業",
+      "name_en": "Shin-Etsu Chemical Co., Ltd.",
+      "sector": "化学",
+      "annual_dividend_forecast": 110.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.95,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 10,
+      "ai_summary_ja": "長期的な事業拡大と強固な財務を背景に、長期連続増配を継続。株主還元意欲が高い。"
+    },
+    {
+      "ticker": "4188.T",
+      "market": "JP",
+      "name_ja": "三菱ケミカルグループ",
+      "name_en": "Mitsubishi Chemical Group Corporation",
+      "sector": "化学",
+      "annual_dividend_forecast": 32.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.85,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "配当性向30%程度を目安とし、事業構造改革を進めつつ安定的な配当維持に注力。"
+    },
+    {
+      "ticker": "4005.T",
+      "market": "JP",
+      "name_ja": "住友化学",
+      "name_en": "Sumitomo Chemical Company, Limited",
+      "sector": "化学",
+      "annual_dividend_forecast": 12.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.0,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 1,
+      "ai_summary_ja": "業績低迷からの再建期にあり、業績回復に伴って復配・増配基調への復帰を目指す方針。"
+    },
+    {
+      "ticker": "4042.T",
+      "market": "JP",
+      "name_ja": "東ソー",
+      "name_en": "Tosoh Corporation",
+      "sector": "化学",
+      "annual_dividend_forecast": 95.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.6,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "配当性向35%以上を目標とし、安定した高水準配当と自社株買いを積極的に推進。"
+    },
+    {
+      "ticker": "4183.T",
+      "market": "JP",
+      "name_ja": "三井化学",
+      "name_en": "Mitsui Chemicals, Inc.",
+      "sector": "化学",
+      "annual_dividend_forecast": 140.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.8,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "総還元性向40%以上を基本とし、DOEを意識した安定的かつ継続的な増配方針を掲げる。"
+    },
+    {
+      "ticker": "4208.T",
+      "market": "JP",
+      "name_ja": "UBE",
+      "name_en": "UBE Corporation",
+      "sector": "化学",
+      "annual_dividend_forecast": 110.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.0,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "DOE2.5%以上、総還元性向30%以上を目安とし、安定した高配当利回りを継続中。"
+    },
+    {
+      "ticker": "6988.T",
+      "market": "JP",
+      "name_ja": "日東電工",
+      "name_en": "Nitto Denko Corporation",
+      "sector": "化学",
+      "annual_dividend_forecast": 75.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.8,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "株式分割調整後。半導体・高機能材料好調を背景に安定増配を継続する方針。"
+    },
+    {
+      "ticker": "3402.T",
+      "market": "JP",
+      "name_ja": "東レ",
+      "name_en": "Toray Industries, Inc.",
+      "sector": "繊維製品",
+      "annual_dividend_forecast": 24.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.7,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "配当性向30%程度を維持しつつ、業績向上に伴う安定増配を基本方針とする。"
+    },
+    {
+      "ticker": "3407.T",
+      "market": "JP",
+      "name_ja": "旭化成",
+      "name_en": "Asahi Kasei Corporation",
+      "sector": "化学",
+      "annual_dividend_forecast": 36.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.4,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "安定配当の維持を重視し、配当性向35%以上を目標とした株主還元方針をとる。"
+    },
+    {
+      "ticker": "4502.T",
+      "market": "JP",
+      "name_ja": "武田薬品工業",
+      "name_en": "Takeda Pharmaceutical Company Limited",
+      "sector": "医薬品",
+      "annual_dividend_forecast": 196.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.65,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "累進的配当方針を導入し、減配なしで増配または維持を明言。高配当利回りが特徴。"
+    },
+    {
+      "ticker": "4503.T",
+      "market": "JP",
+      "name_ja": "アステラス製薬",
+      "name_en": "Astellas Pharma Inc.",
+      "sector": "医薬品",
+      "annual_dividend_forecast": 74.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.45,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 13,
+      "ai_summary_ja": "主力薬特許切れの過渡期もDOEとキャッシュフロー重視で13年超の連続増配方針を死守。"
+    },
+    {
+      "ticker": "4568.T",
+      "market": "JP",
+      "name_ja": "第一三共",
+      "name_en": "Daiichi Sankyo Company, Limited",
+      "sector": "医薬品",
+      "annual_dividend_forecast": 66.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.45,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 5,
+      "ai_summary_ja": "ADC抗がん剤の急成長に伴い業績拡大中。DOE8%以上を掲げ連続増配中。"
+    },
+    {
+      "ticker": "4507.T",
+      "market": "JP",
+      "name_ja": "塩野義製薬",
+      "name_en": "Shionogi & Co., Ltd.",
+      "sector": "医薬品",
+      "annual_dividend_forecast": 60.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.75,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 14,
+      "ai_summary_ja": "DOE4%以上を目標に掲げ、長期にわたる連続増配と高位安定還元を維持している。"
+    },
+    {
+      "ticker": "4523.T",
+      "market": "JP",
+      "name_ja": "エーザイ",
+      "name_en": "Eisai Co., Ltd.",
+      "sector": "医薬品",
+      "annual_dividend_forecast": 160.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.2,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 15,
+      "ai_summary_ja": "DOE8%を指標とし、アルツハイマー病治療薬の拡大と並行して非減配の安定配当を維持。"
+    },
+    {
+      "ticker": "4578.T",
+      "market": "JP",
+      "name_ja": "大塚ホールディングス",
+      "name_en": "Otsuka Holdings Co., Ltd.",
+      "sector": "医薬品",
+      "annual_dividend_forecast": 130.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.05,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": 5,
+      "ai_summary_ja": "12月決算銘柄。医療関連とニュートラシューティカルズの二軸成長で増配基調を維持。"
+    },
+    {
+      "ticker": "4519.T",
+      "market": "JP",
+      "name_ja": "中外製薬",
+      "name_en": "Chugai Pharmaceutical Co., Ltd.",
+      "sector": "医薬品",
+      "annual_dividend_forecast": 92.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.55,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "12月決算銘柄。配当性向目安Core EPSの45%程度とし、革新薬成長で安定増配を目指す。"
+    },
+    {
+      "ticker": "8801.T",
+      "market": "JP",
+      "name_ja": "三井不動産",
+      "name_en": "Mitsui Fudosan Co., Ltd.",
+      "sector": "不動産業",
+      "annual_dividend_forecast": 32.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.35,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 5,
+      "ai_summary_ja": "株式分割調整後。総還元性向約50%を掲げ、資産効率改善と継続的な増配方針を推進。"
+    },
+    {
+      "ticker": "8802.T",
+      "market": "JP",
+      "name_ja": "三菱地所",
+      "name_en": "Mitsubishi Estate Company, Limited",
+      "sector": "不動産業",
+      "annual_dividend_forecast": 46.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.05,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 6,
+      "ai_summary_ja": "オフィス・住宅事業の堅調さを背景に、毎期の増配目標を掲げて連続増配を継続中。"
+    },
+    {
+      "ticker": "8830.T",
+      "market": "JP",
+      "name_ja": "住友不動産",
+      "name_en": "Sumitomo Realty & Development Co., Ltd.",
+      "sector": "不動産業",
+      "annual_dividend_forecast": 80.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 1.75,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 11,
+      "ai_summary_ja": "強固な賃貸ビル基盤を支えに長期連続増配を継続。利益成長に合わせた安定配当を行う。"
+    },
+    {
+      "ticker": "3003.T",
+      "market": "JP",
+      "name_ja": "ヒューリック",
+      "name_en": "Hulic Co., Ltd.",
+      "sector": "不動産業",
+      "annual_dividend_forecast": 54.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.8,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": 15,
+      "ai_summary_ja": "好立地オフィスやホテル等に強み。15期以上連続増配を継続しており、安定した利益成長と株主還元姿勢が特徴。"
+    },
+    {
+      "ticker": "3289.T",
+      "market": "JP",
+      "name_ja": "東急不動産ホールディングス",
+      "name_en": "Tokyu Fudosan Holdings Corporation",
+      "sector": "不動産業",
+      "annual_dividend_forecast": 34.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.5,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 11,
+      "ai_summary_ja": "都市開発や再生可能エネルギー事業を展開。配当性向35%以上を目標に安定・継続的な増配方針を掲げる。"
+    },
+    {
+      "ticker": "1925.T",
+      "market": "JP",
+      "name_ja": "大和ハウス工業",
+      "name_en": "Daiwa House Industry Co., Ltd.",
+      "sector": "建設業",
+      "annual_dividend_forecast": 145.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.2,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 15,
+      "ai_summary_ja": "物流施設や戸建住宅に強み。配当性向35%以上を基本方針とし、10期以上の連続増配実績を誇る大手ハウスメーカー。"
+    },
+    {
+      "ticker": "1928.T",
+      "market": "JP",
+      "name_ja": "積水ハウス",
+      "name_en": "Sekisui House, Ltd.",
+      "sector": "建設業",
+      "annual_dividend_forecast": 129.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.6,
+      "ex_dividend_months": [
+        1,
+        7
+      ],
+      "payment_months": [
+        4,
+        10
+      ],
+      "consecutive_years": 13,
+      "ai_summary_ja": "1月決算企業。配当性向40%以上を掲げ、長期にわたり安定増配を継続。北米事業拡大による成長も追求。"
+    },
+    {
+      "ticker": "1801.T",
+      "market": "JP",
+      "name_ja": "大成建設",
+      "name_en": "Taisei Corporation",
+      "sector": "建設業",
+      "annual_dividend_forecast": 150.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.4,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "スーパーゼネコン大手。DOEや配当性向を意識した還元強化を進め、業績回復とともに配当水準を堅持。"
+    },
+    {
+      "ticker": "1802.T",
+      "market": "JP",
+      "name_ja": "大林組",
+      "name_en": "Obayashi Corporation",
+      "sector": "建設業",
+      "annual_dividend_forecast": 78.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.0,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "自己資本配当率(DOE)5%程度を目安とした積極的な株主還元方針への転換により大幅増配を実施。"
+    },
+    {
+      "ticker": "1803.T",
+      "market": "JP",
+      "name_ja": "清水建設",
+      "name_en": "Shimizu Corporation",
+      "sector": "建設業",
+      "annual_dividend_forecast": 25.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.8,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "採算性改善に取り組みつつ配当性向40%程度を基本とする。業績回復に伴い安定的配当の維持を目指す。"
+    },
+    {
+      "ticker": "1812.T",
+      "market": "JP",
+      "name_ja": "鹿島建設",
+      "name_en": "Kajima Corporation",
+      "sector": "建設業",
+      "annual_dividend_forecast": 96.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.4,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "土木・建築ともに高い技術力。配当性向30%以上を目安とし、好調な海外案件等に支えられ増配基調。"
+    },
+    {
+      "ticker": "1878.T",
+      "market": "JP",
+      "name_ja": "大東建託",
+      "name_en": "Daito Trust Construction Co., Ltd.",
+      "sector": "建設業",
+      "annual_dividend_forecast": 660.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.9,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "賃貸住宅の建築・管理大手。配当性向50%の高還元方針を維持し、安定した入居率を背景に高配当を継続。"
+    },
+    {
+      "ticker": "1911.T",
+      "market": "JP",
+      "name_ja": "住友林業",
+      "name_en": "Sumitomo Forestry Co., Ltd.",
+      "sector": "建設業",
+      "annual_dividend_forecast": 140.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.6,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "米国戸建住宅事業が牽引。連結配当性向30%以上を基本とし、利益成長に応じた積極増配を実施。"
+    },
+    {
+      "ticker": "5108.T",
+      "market": "JP",
+      "name_ja": "ブリヂストン",
+      "name_en": "Bridgestone Corporation",
+      "sector": "ゴム製品",
+      "annual_dividend_forecast": 210.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.8,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "世界首位級のタイヤメーカー。配当性向40%を目安に安定的かつ継続的な増配・高還元を推進。"
+    },
+    {
+      "ticker": "5101.T",
+      "market": "JP",
+      "name_ja": "横浜ゴム",
+      "name_en": "The Yokohama Rubber Company, Limited",
+      "sector": "ゴム製品",
+      "annual_dividend_forecast": 98.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.9,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": 5,
+      "ai_summary_ja": "オフハイウェイタイヤ買収などで業績拡大。配当性向30%程度を意識し、連続増配傾向を維持。"
+    },
+    {
+      "ticker": "5201.T",
+      "market": "JP",
+      "name_ja": "AGC",
+      "name_en": "AGC Inc.",
+      "sector": "ガラス・土石製品",
+      "annual_dividend_forecast": 210.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.6,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": 5,
+      "ai_summary_ja": "ガラス・化学品・バイオ受託を展開。DOE重視で業績変動時も減配を極力避ける安定配当方針。"
+    },
+    {
+      "ticker": "5332.T",
+      "market": "JP",
+      "name_ja": "TOTO",
+      "name_en": "TOTO Ltd.",
+      "sector": "ガラス・土石製品",
+      "annual_dividend_forecast": 100.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.4,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": 1,
+      "ai_summary_ja": "衛生陶器大手。連結配当性向40%以上を方針とし、中国市場動向を睨みつつ安定的な株主還元を重視。"
+    },
+    {
+      "ticker": "1489.T",
+      "market": "JP",
+      "name_ja": "NEXT FUNDS 日経平均高配当株50指数連動型上場投信",
+      "name_en": "NEXT FUNDS Nikkei 225 High Dividend Yield Stock 50 Index ETF",
+      "sector": "ETF・投信",
+      "annual_dividend_forecast": 88.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.8,
+      "ex_dividend_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "payment_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "日経平均採用銘柄から高配当50銘柄を選定するETF。年4回決算で安定したインカム分配が魅力。"
+    },
+    {
+      "ticker": "1577.T",
+      "market": "JP",
+      "name_ja": "NEXT FUNDS 野村日本株高配当70連動型上場投信",
+      "name_en": "NEXT FUNDS Nomura Japan Equity High Dividend 70 ETF",
+      "sector": "ETF・投信",
+      "annual_dividend_forecast": 1350.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.5,
+      "ex_dividend_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "payment_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "国内上場銘柄から予想配当利回りの高い70銘柄に分散投資する年4回決算型の高配当ETF。"
+    },
+    {
+      "ticker": "1698.T",
+      "market": "JP",
+      "name_ja": "上場インデックスファンド日本高配当(東証配当フォーカス100)",
+      "name_en": "Listed Index Fund Japan High Dividend (TSE Dividend Focus 100)",
+      "sector": "ETF・投信",
+      "annual_dividend_forecast": 120.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.5,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "株式90銘柄とREIT10銘柄で構成される東証配当フォーカス100連動型。四半期分配を実施。"
+    },
+    {
+      "ticker": "2564.T",
+      "market": "JP",
+      "name_ja": "グローバルX MSCIスーパーディビィデンド-日本株式 ETF",
+      "name_en": "Global X MSCI SuperDividend Japan ETF",
+      "sector": "ETF・投信",
+      "annual_dividend_forecast": 125.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.3,
+      "ex_dividend_months": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "payment_months": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "日本株の中で相対的に配当利回りが高い銘柄に等金額配分。年6回隔月分配型のインカム特化ETF。"
+    },
+    {
+      "ticker": "2529.T",
+      "market": "JP",
+      "name_ja": "NF・株主還元70 ETF",
+      "name_en": "NEXT FUNDS Nomura Shareholder Yield 70 ETF",
+      "sector": "ETF・投信",
+      "annual_dividend_forecast": 45.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 2.8,
+      "ex_dividend_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "payment_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "配当だけでなく自社株買いも含めた総還元利回りの高い国内70銘柄に投資する年4回決算ETF。"
+    },
+    {
+      "ticker": "8951.T",
+      "market": "JP",
+      "name_ja": "日本ビルファンド投資法人",
+      "name_en": "Nippon Building Fund Inc.",
+      "sector": "J-REIT",
+      "annual_dividend_forecast": 4700.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 3.8,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "国内最大規模のオフィス特化型REIT。三井不動産系で都心Aクラスビル中心の堅牢な分配金基盤。"
+    },
+    {
+      "ticker": "8952.T",
+      "market": "JP",
+      "name_ja": "ジャパンリアルエステイト投資法人",
+      "name_en": "Japan Real Estate Investment Corporation",
+      "sector": "J-REIT",
+      "annual_dividend_forecast": 4900.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.4,
+      "ex_dividend_months": [
+        3,
+        9
+      ],
+      "payment_months": [
+        6,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "三菱地所系のオフィスビル特化REIT。厳選された都心優良物件により中長期的に安定配当を提供。"
+    },
+    {
+      "ticker": "8953.T",
+      "market": "JP",
+      "name_ja": "日本都市ファンド投資法人",
+      "name_en": "Japan Metropolitan Fund Investment Corporation",
+      "sector": "J-REIT",
+      "annual_dividend_forecast": 4800.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 5.1,
+      "ex_dividend_months": [
+        2,
+        8
+      ],
+      "payment_months": [
+        5,
+        11
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "商業施設を中心にオフィスや住宅も保有する総合型REIT。高水準な分配金利回りが特徴。"
+    },
+    {
+      "ticker": "8954.T",
+      "market": "JP",
+      "name_ja": "オリックス不動産投資法人",
+      "name_en": "ORIX JREIT Inc.",
+      "sector": "J-REIT",
+      "annual_dividend_forecast": 3600.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.6,
+      "ex_dividend_months": [
+        2,
+        8
+      ],
+      "payment_months": [
+        5,
+        11
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "オリックスグループの総合型REIT。オフィス・商業・物流・ホテルなど分散投資で安定分配。"
+    },
+    {
+      "ticker": "8960.T",
+      "market": "JP",
+      "name_ja": "ユナイテッド・アーバン投資法人",
+      "name_en": "United Urban Investment Corporation",
+      "sector": "J-REIT",
+      "annual_dividend_forecast": 3400.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.9,
+      "ex_dividend_months": [
+        5,
+        11
+      ],
+      "payment_months": [
+        2,
+        8
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "物件タイプや地域を特定しない総合型REIT。物件入替による資産効率向上と安定分配金維持を推進。"
+    },
+    {
+      "ticker": "8963.T",
+      "market": "JP",
+      "name_ja": "インヴィンシブル投資法人",
+      "name_en": "Invincible Investment Corporation",
+      "sector": "J-REIT",
+      "annual_dividend_forecast": 3900.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 5.8,
+      "ex_dividend_months": [
+        6,
+        12
+      ],
+      "payment_months": [
+        3,
+        9
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "ホテルと住居に重点投資するREIT。インバウンド需要回復に伴う業績改善で分配金が急回復傾向。"
+    },
+    {
+      "ticker": "3281.T",
+      "market": "JP",
+      "name_ja": "GLP投資法人",
+      "name_en": "GLP J-REIT",
+      "sector": "J-REIT",
+      "annual_dividend_forecast": 5850.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.55,
+      "ex_dividend_months": [
+        2,
+        8
+      ],
+      "payment_months": [
+        5,
+        11
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "先進的物流施設に特化した総合型物流REIT。ポートフォリオの高稼働率を維持し、安定した分配金推移を継続している。"
+    },
+    {
+      "ticker": "3466.T",
+      "market": "JP",
+      "name_ja": "ラサールロジポート投資法人",
+      "name_en": "LaSalle LOGIPORT REIT",
+      "sector": "J-REIT",
+      "annual_dividend_forecast": 6800.0,
+      "currency": "JPY",
+      "dividend_yield_percent": 4.75,
+      "ex_dividend_months": [
+        2,
+        8
+      ],
+      "payment_months": [
+        5,
+        11
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "東京圏・関西圏の大型物流施設を主対象とする物流特化型REIT。安定した賃貸収益により底堅い分配金水準を維持。"
+    },
+    {
+      "ticker": "VYM",
+      "market": "US",
+      "name_ja": "バンガード・米国高配当株式ETF",
+      "name_en": "Vanguard High Dividend Yield ETF",
+      "sector": "米国ETF",
+      "annual_dividend_forecast": 3.65,
+      "currency": "USD",
+      "dividend_yield_percent": 2.85,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "FTSEハイディビデンド・イールド指数連動。中大型の高配当株約400銘柄に幅広く分散し、着実な増配基調が続く。"
+    },
+    {
+      "ticker": "HDV",
+      "market": "US",
+      "name_ja": "iシェアーズ・コア 米国高配当株 ETF",
+      "name_en": "iShares Core High Dividend ETF",
+      "sector": "米国ETF",
+      "annual_dividend_forecast": 4.3,
+      "currency": "USD",
+      "dividend_yield_percent": 3.65,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "モーニングスター配当フォーカス指数に連動。財務健全性の高い高配当75銘柄で構成され、エネルギー・ヘルスケア比率が高め。"
+    },
+    {
+      "ticker": "SPYD",
+      "market": "US",
+      "name_ja": "SPDR ポートフォリオ S&P 500 高配当株式ETF",
+      "name_en": "SPDR Portfolio S&P 500 High Dividend ETF",
+      "sector": "米国ETF",
+      "annual_dividend_forecast": 1.9,
+      "currency": "USD",
+      "dividend_yield_percent": 4.25,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "S&P500高配当上位80銘柄に均等分散投資。景気敏感株比率が高く利回りは魅力的だが、分配金額の変動幅はやや大きめ。"
+    },
+    {
+      "ticker": "SCHD",
+      "market": "US",
+      "name_ja": "シュワブ・米国配当株式ETF",
+      "name_en": "Schwab U.S. Dividend Equity ETF",
+      "sector": "米国ETF",
+      "annual_dividend_forecast": 1.05,
+      "currency": "USD",
+      "dividend_yield_percent": 3.6,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "10年以上増配の優良株で構成。2024年の株式分割後も配当成長性とトータルリターンのバランスに優れ高い人気を維持。"
+    },
+    {
+      "ticker": "VIG",
+      "market": "US",
+      "name_ja": "バンガード・米国増配株式ETF",
+      "name_en": "Vanguard Dividend Appreciation ETF",
+      "sector": "米国ETF",
+      "annual_dividend_forecast": 3.55,
+      "currency": "USD",
+      "dividend_yield_percent": 1.85,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "10年以上連続増配の米国銘柄で構成。利回りは控えめながらキャピタルゲインと継続的な増配の双方を狙える王道ETF。"
+    },
+    {
+      "ticker": "JEPI",
+      "market": "US",
+      "name_ja": "JPモルガン・米国株式・プレミアム・インカム ETF",
+      "name_en": "JPMorgan Equity Premium Income ETF",
+      "sector": "米国ETF",
+      "annual_dividend_forecast": 4.3,
+      "currency": "USD",
+      "dividend_yield_percent": 7.45,
+      "ex_dividend_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "payment_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "S&P500構成銘柄と株式リンク債（ELN）のコール売りで高インカムを狙う毎月分配型ETF。ボラティリティにより分配金が変動。"
+    },
+    {
+      "ticker": "JEPQ",
+      "market": "US",
+      "name_ja": "JPモルガン・ナスダック米国株式・プレミアム・インカム ETF",
+      "name_en": "JPMorgan Nasdaq Equity Premium Income ETF",
+      "sector": "米国ETF",
+      "annual_dividend_forecast": 5.35,
+      "currency": "USD",
+      "dividend_yield_percent": 9.55,
+      "ex_dividend_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "payment_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "ナスダック100銘柄を原資産とし、ELNを組み合わせたカバードコール戦略で高水準の毎月インカム創出を目指すETF。"
+    },
+    {
+      "ticker": "DGRO",
+      "market": "US",
+      "name_ja": "iシェアーズ・コア 米国配当成長株 ETF",
+      "name_en": "iShares Core Dividend Growth ETF",
+      "sector": "米国ETF",
+      "annual_dividend_forecast": 1.45,
+      "currency": "USD",
+      "dividend_yield_percent": 2.35,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "5年以上連続増配かつ配当性向75%以下の銘柄で構成。持続的な配当成長と財務の健全性を重視した低コストETF。"
+    },
+    {
+      "ticker": "DVY",
+      "market": "US",
+      "name_ja": "iシェアーズ 好配当株式 ETF",
+      "name_en": "iShares Select Dividend ETF",
+      "sector": "米国ETF",
+      "annual_dividend_forecast": 5.0,
+      "currency": "USD",
+      "dividend_yield_percent": 3.75,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "5年連続増配の米国高配当株約100銘柄に分散投資。公共事業や金融セクターの配分が高く、安定分配が特徴。"
+    },
+    {
+      "ticker": "SDY",
+      "market": "US",
+      "name_ja": "SPDR S&P 米国高配当株式 ETF",
+      "name_en": "SPDR S&P Dividend ETF",
+      "sector": "米国ETF",
+      "annual_dividend_forecast": 3.55,
+      "currency": "USD",
+      "dividend_yield_percent": 2.65,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "S&Pコンポジット1500採用銘柄のうち20年以上増配を続ける銘柄を利回り加重で保有。配当貴族中心の堅実構成。"
+    },
+    {
+      "ticker": "VOO",
+      "market": "US",
+      "name_ja": "バンガード・S&P 500 ETF",
+      "name_en": "Vanguard S&P 500 ETF",
+      "sector": "米国ETF",
+      "annual_dividend_forecast": 6.9,
+      "currency": "USD",
+      "dividend_yield_percent": 1.35,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "S&P500指数連動の超低コスト旗艦ETF。株価上昇に伴い利回りは1%台前半だが、企業収益成長により分配金額は順調に拡大。"
+    },
+    {
+      "ticker": "VTI",
+      "market": "US",
+      "name_ja": "バンガード・トータル・ストック・マーケットETF",
+      "name_en": "Vanguard Total Stock Market ETF",
+      "sector": "米国ETF",
+      "annual_dividend_forecast": 3.75,
+      "currency": "USD",
+      "dividend_yield_percent": 1.35,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "米国株式市場の投資可能銘柄ほぼ全域（約3700銘柄）をカバー。米経済成長を丸ごと享受でき、四半期ごとに安定分配。"
+    },
+    {
+      "ticker": "QYLD",
+      "market": "US",
+      "name_ja": "グローバルX NASDAQ100・カバード・コール ETF",
+      "name_en": "Global X NASDAQ 100 Covered Call ETF",
+      "sector": "米国ETF",
+      "annual_dividend_forecast": 2.15,
+      "currency": "USD",
+      "dividend_yield_percent": 11.9,
+      "ex_dividend_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "payment_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "ナスダック100のフルカバードコール戦略で年率10%超の高分配を目指す毎月分配ETF。株価上昇余地は限定的。"
+    },
+    {
+      "ticker": "XYLD",
+      "market": "US",
+      "name_ja": "グローバルX S&P500・カバード・コール ETF",
+      "name_en": "Global X S&P 500 Covered Call ETF",
+      "sector": "米国ETF",
+      "annual_dividend_forecast": 3.95,
+      "currency": "USD",
+      "dividend_yield_percent": 9.6,
+      "ex_dividend_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "payment_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "S&P500現物保有とコールオプション売却の組み合わせにより毎月高水準のオプションプレミアムインカムを分配。"
+    },
+    {
+      "ticker": "PFF",
+      "market": "US",
+      "name_ja": "iシェアーズ 米国優先株式 ETF",
+      "name_en": "iShares Preferred and Income Securities ETF",
+      "sector": "米国ETF",
+      "annual_dividend_forecast": 1.95,
+      "currency": "USD",
+      "dividend_yield_percent": 6.15,
+      "ex_dividend_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "payment_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "米国の金融機関中心の優先株・ハイブリッド証券に投資。株式と債券の中間的性質を持ち、高利回りの毎月分配を実施。"
+    },
+    {
+      "ticker": "AGG",
+      "market": "US",
+      "name_ja": "iシェアーズ・コア 米国総合債券市場 ETF",
+      "name_en": "iShares Core U.S. Aggregate Bond ETF",
+      "sector": "米国債券ETF",
+      "annual_dividend_forecast": 3.75,
+      "currency": "USD",
+      "dividend_yield_percent": 3.75,
+      "ex_dividend_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "payment_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "米国投資適格債券市場全体に幅広く分散。国債・MBS・社債等を含み、安定したインカムゲインを毎月分配。"
+    },
+    {
+      "ticker": "BND",
+      "market": "US",
+      "name_ja": "バンガード・米国トータル債券市場ETF",
+      "name_en": "Vanguard Total Bond Market ETF",
+      "sector": "米国債券ETF",
+      "annual_dividend_forecast": 2.75,
+      "currency": "USD",
+      "dividend_yield_percent": 3.75,
+      "ex_dividend_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "payment_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "米国の投資適格債券全般を網羅する代表的債券ETF。ポートフォリオのリスクヘッジと毎月の安定金利収入を提供。"
+    },
+    {
+      "ticker": "TLT",
+      "market": "US",
+      "name_ja": "iシェアーズ 米国国債 20年超 ETF",
+      "name_en": "iShares 20+ Year Treasury Bond ETF",
+      "sector": "米国債券ETF",
+      "annual_dividend_forecast": 3.6,
+      "currency": "USD",
+      "dividend_yield_percent": 3.9,
+      "ex_dividend_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "payment_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "consecutive_years": null,
+      "ai_summary_ja": "残存期間20年超の米国長期国債に投資。金利感応度が高く価格変動は大きいが、信用力最高峰の毎月インカムを享受可能。"
+    },
+    {
+      "ticker": "KO",
+      "market": "US",
+      "name_ja": "コカ・コーラ",
+      "name_en": "The Coca-Cola Company",
+      "sector": "生活必需品",
+      "annual_dividend_forecast": 1.94,
+      "currency": "USD",
+      "dividend_yield_percent": 3.0,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        11
+      ],
+      "payment_months": [
+        4,
+        7,
+        10,
+        12
+      ],
+      "consecutive_years": 62,
+      "ai_summary_ja": "60年超の連続増配実績を誇る代表的配当王。強固な世界的ブランドとキャッシュフロー創出力により極めて安定した配当方針。"
+    },
+    {
+      "ticker": "PEP",
+      "market": "US",
+      "name_ja": "ペプシコ",
+      "name_en": "PepsiCo, Inc.",
+      "sector": "生活必需品",
+      "annual_dividend_forecast": 5.42,
+      "currency": "USD",
+      "dividend_yield_percent": 3.4,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        1,
+        3,
+        6,
+        9
+      ],
+      "consecutive_years": 52,
+      "ai_summary_ja": "飲料・スナック菓子で世界首位級の配当王。50年超連続増配を維持し、安定した収益基盤と積極的な株主還元姿勢を継続。"
+    },
+    {
+      "ticker": "PG",
+      "market": "US",
+      "name_ja": "プロクター・アンド・ギャンブル (P&G)",
+      "name_en": "The Procter & Gamble Company",
+      "sector": "生活必需品",
+      "annual_dividend_forecast": 4.03,
+      "currency": "USD",
+      "dividend_yield_percent": 2.4,
+      "ex_dividend_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "payment_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "consecutive_years": 68,
+      "ai_summary_ja": "68年連続増配を誇る日用品世界大手。不況耐性が極めて高く、フリーキャッシュフローの大半を配当と自社株買いで還元。"
+    },
+    {
+      "ticker": "JNJ",
+      "market": "US",
+      "name_ja": "ジョンソン・エンド・ジョンソン",
+      "name_en": "Johnson & Johnson",
+      "sector": "ヘルスケア",
+      "annual_dividend_forecast": 4.96,
+      "currency": "USD",
+      "dividend_yield_percent": 3.2,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 62,
+      "ai_summary_ja": "医薬品・医療機器に特化。最高格付けAAAの財務基盤に支えられ、60年以上の連続増配実績を誇るヘルスケア主力銘柄。"
+    },
+    {
+      "ticker": "ABBV",
+      "market": "US",
+      "name_ja": "アッヴィ",
+      "name_en": "AbbVie Inc.",
+      "sector": "ヘルスケア",
+      "annual_dividend_forecast": 6.56,
+      "currency": "USD",
+      "dividend_yield_percent": 3.55,
+      "ex_dividend_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "payment_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "consecutive_years": 52,
+      "ai_summary_ja": "アボット分社前を含め50年超の連続増配歴を持つバイオ医薬大手。主力薬特許切れ後も新薬群の伸長で増配姿勢を維持。"
+    },
+    {
+      "ticker": "MRK",
+      "market": "US",
+      "name_ja": "メルク",
+      "name_en": "Merck & Co., Inc.",
+      "sector": "ヘルスケア",
+      "annual_dividend_forecast": 3.24,
+      "currency": "USD",
+      "dividend_yield_percent": 3.15,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "consecutive_years": 14,
+      "ai_summary_ja": "抗がん剤キイトルーダの収益を背景に14年連続増配を継続。フリーキャッシュフローの成長に合わせて安定した配当成長を維持しています。"
+    },
+    {
+      "ticker": "PFE",
+      "market": "US",
+      "name_ja": "ファイザー",
+      "name_en": "Pfizer Inc.",
+      "sector": "ヘルスケア",
+      "annual_dividend_forecast": 1.68,
+      "currency": "USD",
+      "dividend_yield_percent": 6.35,
+      "ex_dividend_months": [
+        1,
+        5,
+        7,
+        11
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 15,
+      "ai_summary_ja": "コロナ特需一服後も高水準の配当を堅持し15年連続増配。高配当利回りが魅力ですが、新薬パイプラインの収益化進捗に注視が必要です。"
+    },
+    {
+      "ticker": "BMY",
+      "market": "US",
+      "name_ja": "ブリストル・マイヤーズ スクイブ",
+      "name_en": "Bristol-Myers Squibb Company",
+      "sector": "ヘルスケア",
+      "annual_dividend_forecast": 2.44,
+      "currency": "USD",
+      "dividend_yield_percent": 4.65,
+      "ex_dividend_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "payment_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "consecutive_years": 16,
+      "ai_summary_ja": "主力薬の特許切れ懸念を抱えるものの、強固な営業CFを背景に16年連続増配を維持。自社株買いとともに積極的な株主還元姿勢を維持。"
+    },
+    {
+      "ticker": "XOM",
+      "market": "US",
+      "name_ja": "エクソンモービル",
+      "name_en": "Exxon Mobil Corporation",
+      "sector": "エネルギー",
+      "annual_dividend_forecast": 4.12,
+      "currency": "USD",
+      "dividend_yield_percent": 3.35,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 42,
+      "ai_summary_ja": "42年連続増配を誇る配当貴族銘柄。パイオニア・ナチュラル買収後も健全な財務基盤と高い資本規律を保ち、安定した増配を継続しています。"
+    },
+    {
+      "ticker": "CVX",
+      "market": "US",
+      "name_ja": "シェブロン",
+      "name_en": "Chevron Corporation",
+      "sector": "エネルギー",
+      "annual_dividend_forecast": 6.84,
+      "currency": "USD",
+      "dividend_yield_percent": 4.3,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 37,
+      "ai_summary_ja": "37年連続増配の配当貴族。原油価格変動への耐性が高く、手元流動性と低負債を強みに自社株買いと着実な増配を両立しています。"
+    },
+    {
+      "ticker": "COP",
+      "market": "US",
+      "name_ja": "コノコフィリップス",
+      "name_en": "ConocoPhillips",
+      "sector": "エネルギー",
+      "annual_dividend_forecast": 3.12,
+      "currency": "USD",
+      "dividend_yield_percent": 2.85,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        10
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 8,
+      "ai_summary_ja": "基本配当の着実な成長に加え、業績に応じた変動配当（VROC）および自社株買いを組み合わせた柔軟かつ強力な株主還元方針を採用。"
+    },
+    {
+      "ticker": "T",
+      "market": "US",
+      "name_ja": "AT&T",
+      "name_en": "AT&T Inc.",
+      "sector": "通信",
+      "annual_dividend_forecast": 1.11,
+      "currency": "USD",
+      "dividend_yield_percent": 4.92,
+      "ex_dividend_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "payment_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "consecutive_years": 2,
+      "ai_summary_ja": "メディア部門分離による減配後は現行水準を維持。5G・光回線への投資と負債圧縮を最優先しつつ、高水準のフリーCFから安定配当を供給。"
+    },
+    {
+      "ticker": "VZ",
+      "market": "US",
+      "name_ja": "ベライゾン・コミュニケーションズ",
+      "name_en": "Verizon Communications Inc.",
+      "sector": "通信",
+      "annual_dividend_forecast": 2.74,
+      "currency": "USD",
+      "dividend_yield_percent": 6.35,
+      "ex_dividend_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "payment_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "consecutive_years": 18,
+      "ai_summary_ja": "米通信大手として18年連続増配を達成。ワイヤレス契約者の安定収入と潤沢なCFにより、6%前後の高配当利回りを継続提供しています。"
+    },
+    {
+      "ticker": "MO",
+      "market": "US",
+      "name_ja": "アルトリア・グループ",
+      "name_en": "Altria Group, Inc.",
+      "sector": "生活必需品",
+      "annual_dividend_forecast": 4.2,
+      "currency": "USD",
+      "dividend_yield_percent": 7.6,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "consecutive_years": 55,
+      "ai_summary_ja": "55年連続増配の配当王。煙草出荷数減少を値上げと新カテゴリ製品で補い、配当性向約80%を目標とした高配当還元を長年堅持しています。"
+    },
+    {
+      "ticker": "PM",
+      "market": "US",
+      "name_ja": "フィリップ・モリス・インターナショナル",
+      "name_en": "Philip Morris International Inc.",
+      "sector": "生活必需品",
+      "annual_dividend_forecast": 5.6,
+      "currency": "USD",
+      "dividend_yield_percent": 4.3,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "consecutive_years": 16,
+      "ai_summary_ja": "加熱式たばこIQOSやZYNの急成長により業績好調。分社化以来16年連続増配を維持し、煙草事業の煙なし移行とともに増配継続中。"
+    },
+    {
+      "ticker": "BTI",
+      "market": "US",
+      "name_ja": "ブリティッシュ・アメリカン・タバコ (ADR)",
+      "name_en": "British American Tobacco p.l.c.",
+      "sector": "生活必需品",
+      "annual_dividend_forecast": 3.02,
+      "currency": "USD",
+      "dividend_yield_percent": 8.05,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "consecutive_years": 25,
+      "ai_summary_ja": "配当利回り約8%超の超高配当ADR銘柄。ポンド建て配当を四半期毎に米ドル換算して支払い。自社株買い再開など還元姿勢も積極的。"
+    },
+    {
+      "ticker": "O",
+      "market": "US",
+      "name_ja": "リアルティ・インカム",
+      "name_en": "Realty Income Corporation",
+      "sector": "米国REIT",
+      "annual_dividend_forecast": 3.2,
+      "currency": "USD",
+      "dividend_yield_percent": 5.45,
+      "ex_dividend_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "payment_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "consecutive_years": 30,
+      "ai_summary_ja": "「マンスリー・ディビデンド・カンパニー」として30年連続増配を誇るトリプルネットREIT。毎月安定した分配金実績を持ちます。"
+    },
+    {
+      "ticker": "MAIN",
+      "market": "US",
+      "name_ja": "メイン・ストリート・キャピタル",
+      "name_en": "Main Street Capital Corporation",
+      "sector": "米国金融(BDC)",
+      "annual_dividend_forecast": 3.0,
+      "currency": "USD",
+      "dividend_yield_percent": 5.8,
+      "ex_dividend_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "payment_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "consecutive_years": 3,
+      "ai_summary_ja": "中堅企業向け融資・投資を手掛けるBDC大手。毎月配当に加え、好調な運用実績に応じた四半期特別配当を頻繁に実施しています。"
+    },
+    {
+      "ticker": "ARCC",
+      "market": "US",
+      "name_ja": "エイリス・キャピタル",
+      "name_en": "Ares Capital Corporation",
+      "sector": "米国金融(BDC)",
+      "annual_dividend_forecast": 1.92,
+      "currency": "USD",
+      "dividend_yield_percent": 8.85,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 4,
+      "ai_summary_ja": "資産規模最大のBDC。ポートフォリオの分散と変動金利型融資により高利回りを維持。安定した高配当インカム銘柄として人気。"
+    },
+    {
+      "ticker": "VICI",
+      "market": "US",
+      "name_ja": "VICIプロパティーズ",
+      "name_en": "VICI Properties Inc.",
+      "sector": "米国REIT",
+      "annual_dividend_forecast": 1.73,
+      "currency": "USD",
+      "dividend_yield_percent": 5.48,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "consecutive_years": 6,
+      "ai_summary_ja": "ラスベガスのカジノ施設等を中心に保有する体験型ネットリースREIT。100%賃料回収率とインフレ連動契約により上場来連続増配中。"
+    },
+    {
+      "ticker": "WPC",
+      "market": "US",
+      "name_ja": "W. P. キャリー",
+      "name_en": "W. P. Carey Inc.",
+      "sector": "米国REIT",
+      "annual_dividend_forecast": 3.48,
+      "currency": "USD",
+      "dividend_yield_percent": 6.1,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "consecutive_years": 1,
+      "ai_summary_ja": "オフィス物件完全撤退に伴い一時減配を実施したものの、産業・物流施設へのシフト完了後は新たな基準から四半期毎の小幅増配を再開。"
+    },
+    {
+      "ticker": "IBM",
+      "market": "US",
+      "name_ja": "IBM",
+      "name_en": "International Business Machines Corporation",
+      "sector": "情報技術",
+      "annual_dividend_forecast": 6.72,
+      "currency": "USD",
+      "dividend_yield_percent": 3.05,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 29,
+      "ai_summary_ja": "29年連続増配中の配当貴族。ハイブリッドクラウドと生成AI（watsonx）事業の拡大によりフリーCF創出力を高め、増配を堅持。"
+    },
+    {
+      "ticker": "CSCO",
+      "market": "US",
+      "name_ja": "シスコシステムズ",
+      "name_en": "Cisco Systems, Inc.",
+      "sector": "情報技術",
+      "annual_dividend_forecast": 1.64,
+      "currency": "USD",
+      "dividend_yield_percent": 2.8,
+      "ex_dividend_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "payment_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "consecutive_years": 13,
+      "ai_summary_ja": "Splunk買収完了に伴いサブスクリプション収益比率が上昇。潤沢なCFの50%以上を配当と自社株買いで株主に還元する方針です。"
+    },
+    {
+      "ticker": "TXN",
+      "market": "US",
+      "name_ja": "テキサス・インスツルメンツ",
+      "name_en": "Texas Instruments Incorporated",
+      "sector": "情報技術",
+      "annual_dividend_forecast": 5.56,
+      "currency": "USD",
+      "dividend_yield_percent": 2.75,
+      "ex_dividend_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "payment_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "consecutive_years": 21,
+      "ai_summary_ja": "21年連続増配中。自社ファブ投資サイクルのピーク越えに伴いフリーCFが回復傾向。株主還元重視の経営方針を一貫して維持しています。"
+    },
+    {
+      "ticker": "AVGO",
+      "market": "US",
+      "name_ja": "ブロードコム",
+      "name_en": "Broadcom Inc.",
+      "sector": "情報技術",
+      "annual_dividend_forecast": 2.45,
+      "currency": "USD",
+      "dividend_yield_percent": 1.45,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 14,
+      "ai_summary_ja": "1対10の株式分割を実施済。前年度フリーCFの50%を配当に充当する明確なポリシーを持ち、AI半導体需要を追い風に14年連続大幅増配。"
+    },
+    {
+      "ticker": "QCOM",
+      "market": "US",
+      "name_ja": "クアルコム",
+      "name_en": "QUALCOMM Incorporated",
+      "sector": "情報技術",
+      "annual_dividend_forecast": 3.4,
+      "currency": "USD",
+      "dividend_yield_percent": 2.05,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 21,
+      "ai_summary_ja": "モバイル向け半導体および自動車・AI PC向けチップの成長を背景に21年連続増配。健全なキャッシュフローと低配当性向を維持。"
+    },
+    {
+      "ticker": "AAPL",
+      "market": "US",
+      "name_ja": "アップル",
+      "name_en": "Apple Inc.",
+      "sector": "情報技術",
+      "annual_dividend_forecast": 1.04,
+      "currency": "USD",
+      "dividend_yield_percent": 0.45,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "consecutive_years": 12,
+      "ai_summary_ja": "巨額の自社株買いを主軸としつつ12年連続増配。ネットキャッシュニュートラルを目指し、低配当利回りながら極めて安全な増配を継続。"
+    },
+    {
+      "ticker": "MSFT",
+      "market": "US",
+      "name_ja": "マイクロソフト",
+      "name_en": "Microsoft Corporation",
+      "sector": "情報技術",
+      "annual_dividend_forecast": 3.32,
+      "currency": "USD",
+      "dividend_yield_percent": 0.78,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 20,
+      "ai_summary_ja": "クラウドおよびAI投資を加速しつつ20年連続増配。強固な財務体質（AAA格付）と莫大な営業CFにより、自社株買いとともに安定的増配。"
+    },
+    {
+      "ticker": "JPM",
+      "market": "US",
+      "name_ja": "JPモルガン・チェース",
+      "name_en": "JPMorgan Chase & Co.",
+      "sector": "米国金融",
+      "annual_dividend_forecast": 5.0,
+      "currency": "USD",
+      "dividend_yield_percent": 2.25,
+      "ex_dividend_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "payment_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "consecutive_years": 14,
+      "ai_summary_ja": "米国最大の銀行として強固な自己資本比率を維持。FRBストレステスト通過後に着実に増配を実施し、14年連続増配を継続中。"
+    },
+    {
+      "ticker": "BAC",
+      "market": "US",
+      "name_ja": "バンク・オブ・アメリカ",
+      "name_en": "Bank of America Corporation",
+      "sector": "米国金融",
+      "annual_dividend_forecast": 1.04,
+      "currency": "USD",
+      "dividend_yield_percent": 2.45,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 11,
+      "ai_summary_ja": "リテールおよび投資銀行部門の堅調な業績を受け11年連続増配。自己資本の十分性を確保しながら、増配と自社株買いをバランスよく実行。"
+    },
+    {
+      "ticker": "USB",
+      "market": "US",
+      "name_ja": "USバンコープ",
+      "name_en": "U.S. Bancorp",
+      "sector": "金融",
+      "annual_dividend_forecast": 2.0,
+      "currency": "USD",
+      "dividend_yield_percent": 4.25,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "consecutive_years": 13,
+      "ai_summary_ja": "米地銀大手。健全な財務基盤と堅実な資本政策を背景に増配を継続。高配当利回りと安定した四半期配当が魅力。"
+    },
+    {
+      "ticker": "PRU",
+      "market": "US",
+      "name_ja": "プルデンシャル・ファイナンシャル",
+      "name_en": "Prudential Financial, Inc.",
+      "sector": "金融",
+      "annual_dividend_forecast": 5.2,
+      "currency": "USD",
+      "dividend_yield_percent": 4.4,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 16,
+      "ai_summary_ja": "大手生命保険・金融サービス企業。安定したキャッシュフローにより連続増配を維持し、株主還元姿勢が明確。"
+    },
+    {
+      "ticker": "BLK",
+      "market": "US",
+      "name_ja": "ブラックロック",
+      "name_en": "BlackRock, Inc.",
+      "sector": "金融",
+      "annual_dividend_forecast": 20.4,
+      "currency": "USD",
+      "dividend_yield_percent": 2.05,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 15,
+      "ai_summary_ja": "世界最大の資産運用会社。AUM拡大とともに潤沢なフリーキャッシュフローを生み出し、積極的な増配姿勢を継続。"
+    },
+    {
+      "ticker": "MCD",
+      "market": "US",
+      "name_ja": "マクドナルド",
+      "name_en": "McDonald's Corporation",
+      "sector": "一般消費財",
+      "annual_dividend_forecast": 7.08,
+      "currency": "USD",
+      "dividend_yield_percent": 2.4,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 48,
+      "ai_summary_ja": "世界規模のフランチャイズモデルにより半世紀近く連続増配を継続。配当貴族銘柄として極めて高い安定性を誇る。"
+    },
+    {
+      "ticker": "SBUX",
+      "market": "US",
+      "name_ja": "スターバックス",
+      "name_en": "Starbucks Corporation",
+      "sector": "一般消費財",
+      "annual_dividend_forecast": 2.44,
+      "currency": "USD",
+      "dividend_yield_percent": 2.48,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "consecutive_years": 14,
+      "ai_summary_ja": "大手カフェチェーン。業績再建局面においても株主還元を重視し、14年連続増配を維持している。"
+    },
+    {
+      "ticker": "WMT",
+      "market": "US",
+      "name_ja": "ウォルマート",
+      "name_en": "Walmart Inc.",
+      "sector": "生活必需品",
+      "annual_dividend_forecast": 0.83,
+      "currency": "USD",
+      "dividend_yield_percent": 0.95,
+      "ex_dividend_months": [
+        3,
+        5,
+        8,
+        12
+      ],
+      "payment_months": [
+        1,
+        4,
+        5,
+        9
+      ],
+      "consecutive_years": 51,
+      "ai_summary_ja": "50年以上連続増配の配当王。株式分割後も安定して小幅な増配を継続し、強固なディフェンシブ性を発揮。"
+    },
+    {
+      "ticker": "TGT",
+      "market": "US",
+      "name_ja": "ターゲット",
+      "name_en": "Target Corporation",
+      "sector": "生活必需品",
+      "annual_dividend_forecast": 4.48,
+      "currency": "USD",
+      "dividend_yield_percent": 3.42,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 53,
+      "ai_summary_ja": "米大手ディスカウント小売。50年超連続増配の配当王であり、環境変化に対応しつつ堅実な配当還元を継続。"
+    },
+    {
+      "ticker": "HD",
+      "market": "US",
+      "name_ja": "ホーム・デポ",
+      "name_en": "The Home Depot, Inc.",
+      "sector": "一般消費財",
+      "annual_dividend_forecast": 9.0,
+      "currency": "USD",
+      "dividend_yield_percent": 2.25,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 15,
+      "ai_summary_ja": "住宅リフォーム小売最大手。高い資本効率とキャッシュ創出力により15年連続増配中。安定した増配基調が強み。"
+    },
+    {
+      "ticker": "LOW",
+      "market": "US",
+      "name_ja": "ロウズ",
+      "name_en": "Lowe's Companies, Inc.",
+      "sector": "一般消費財",
+      "annual_dividend_forecast": 4.6,
+      "currency": "USD",
+      "dividend_yield_percent": 1.76,
+      "ex_dividend_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "payment_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "consecutive_years": 51,
+      "ai_summary_ja": "住宅改善小売り大手で50年以上連続増配の配当王。自社株買いと着実な増配を組み合わせた積極的な還元が特徴。"
+    },
+    {
+      "ticker": "MMM",
+      "market": "US",
+      "name_ja": "スリーエム (3M)",
+      "name_en": "3M Company",
+      "sector": "資本財",
+      "annual_dividend_forecast": 2.8,
+      "currency": "USD",
+      "dividend_yield_percent": 2.2,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 0,
+      "ai_summary_ja": "医療事業スピンオフに伴い配当水準をリセット減配。新体制下で持続可能なキャッシュフロー創出を目指す方針。"
+    },
+    {
+      "ticker": "CAT",
+      "market": "US",
+      "name_ja": "キャタピラー",
+      "name_en": "Caterpillar Inc.",
+      "sector": "資本財",
+      "annual_dividend_forecast": 5.64,
+      "currency": "USD",
+      "dividend_yield_percent": 1.45,
+      "ex_dividend_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "payment_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "consecutive_years": 31,
+      "ai_summary_ja": "建設機械・鉱山機械の世界最大手。景気循環を受けながらも30年超連続増配を維持する優良配当貴族銘柄。"
+    },
+    {
+      "ticker": "LMT",
+      "market": "US",
+      "name_ja": "ロッキード・マーティン",
+      "name_en": "Lockheed Martin Corporation",
+      "sector": "資本財",
+      "annual_dividend_forecast": 13.2,
+      "currency": "USD",
+      "dividend_yield_percent": 2.45,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 22,
+      "ai_summary_ja": "米防衛コングロマリット首位。堅固な政府防衛予算の受注残を背景に、20年超の連続増配と高水準の株主還元を継続。"
+    },
+    {
+      "ticker": "RTX",
+      "market": "US",
+      "name_ja": "RTX (レイセオン)",
+      "name_en": "RTX Corporation",
+      "sector": "資本財",
+      "annual_dividend_forecast": 2.52,
+      "currency": "USD",
+      "dividend_yield_percent": 2.1,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 31,
+      "ai_summary_ja": "航空宇宙・防衛大手。防衛需要の強さと民間航空回復により安定した収益を確保し、30年以上の連続増配を達成。"
+    },
+    {
+      "ticker": "DUK",
+      "market": "US",
+      "name_ja": "デューク・エナジー",
+      "name_en": "Duke Energy Corporation",
+      "sector": "公益事業",
+      "annual_dividend_forecast": 4.18,
+      "currency": "USD",
+      "dividend_yield_percent": 3.65,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 18,
+      "ai_summary_ja": "米大手電力会社。規制下の電力事業により極めて安定したキャッシュを生み出し、着実な増配基調を堅持。"
+    },
+    {
+      "ticker": "SO",
+      "market": "US",
+      "name_ja": "サザン・カンパニー",
+      "name_en": "The Southern Company",
+      "sector": "公益事業",
+      "annual_dividend_forecast": 2.88,
+      "currency": "USD",
+      "dividend_yield_percent": 3.3,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 23,
+      "ai_summary_ja": "米南東部を地盤とする電力大手。ボーグル原子力発電所の稼働を経て財務負担が軽減し、着実な増配を継続。"
+    },
+    {
+      "ticker": "NEE",
+      "market": "US",
+      "name_ja": "ネクステラ・エナジー",
+      "name_en": "NextEra Energy, Inc.",
+      "sector": "公益事業",
+      "annual_dividend_forecast": 2.06,
+      "currency": "USD",
+      "dividend_yield_percent": 2.7,
+      "ex_dividend_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 30,
+      "ai_summary_ja": "再エネ発電首位の電力大手。安定した規制電力と成長性の高い再エネ事業を両輪に年率約10%ペースの増配方針を掲げる。"
+    },
+    {
+      "ticker": "KMB",
+      "market": "US",
+      "name_ja": "キンバリー・クラーク",
+      "name_en": "Kimberly-Clark Corporation",
+      "sector": "生活必需品",
+      "annual_dividend_forecast": 4.88,
+      "currency": "USD",
+      "dividend_yield_percent": 3.55,
+      "ex_dividend_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "payment_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "consecutive_years": 52,
+      "ai_summary_ja": "衛生用紙製品大手で50年以上の連続増配実績を持つ配当王。強固なブランド力で安定した配当支払い能力を保持。"
+    },
+    {
+      "ticker": "CL",
+      "market": "US",
+      "name_ja": "コルゲート・パルモリブ",
+      "name_en": "Colgate-Palmolive Company",
+      "sector": "生活必需品",
+      "annual_dividend_forecast": 2.0,
+      "currency": "USD",
+      "dividend_yield_percent": 2.1,
+      "ex_dividend_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "payment_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "consecutive_years": 62,
+      "ai_summary_ja": "オーラルケア世界最大手。60年超の増配実績を誇る配当王であり、高いブランド力とグローバル展開で極めて堅固。"
+    },
+    {
+      "ticker": "GIS",
+      "market": "US",
+      "name_ja": "ゼネラル・ミルズ",
+      "name_en": "General Mills, Inc.",
+      "sector": "生活必需品",
+      "annual_dividend_forecast": 2.4,
+      "currency": "USD",
+      "dividend_yield_percent": 3.75,
+      "ex_dividend_months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "payment_months": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "consecutive_years": 5,
+      "ai_summary_ja": "米大手加工食品メーカー。100年以上にわたり無減配配当を継続しており、高い利回りと底堅い財務基盤が特徴。"
+    },
+    {
+      "ticker": "KHC",
+      "market": "US",
+      "name_ja": "クラフト・ハインツ",
+      "name_en": "The Kraft Heinz Company",
+      "sector": "生活必需品",
+      "annual_dividend_forecast": 1.6,
+      "currency": "USD",
+      "dividend_yield_percent": 4.55,
+      "ex_dividend_months": [
+        3,
+        5,
+        8,
+        11
+      ],
+      "payment_months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "consecutive_years": 5,
+      "ai_summary_ja": "大手食品加工会社。四半期0.40ドルの安定配当を維持。高利回りながらレバレッジ削減と事業再構築を進める。"
     }
   ]
 }
