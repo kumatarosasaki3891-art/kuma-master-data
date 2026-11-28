@@ -1,0 +1,90 @@
+name: Update beaver motherboard master data
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_id:
+        description: '特定の基板IDのみ強制再取得（空欄で未登録の差分のみ処理）'
+        required: false
+        type: string
+        default: ''
+      force_all:
+        description: '既存データを含めて全件再取得する'
+        required: false
+        type: boolean
+        default: false
+
+concurrency:
+  group: update-beaver-boards
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-beaver-boards:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: scripts/requirements-beaver.txt
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install -r scripts/requirements-beaver.txt
+
+      - name: Run Gemini motherboard extraction script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || secrets.GEMINIAPI }}
+          INPUT_TARGET_ID: ${{ inputs.target_id }}
+          INPUT_FORCE_ALL: ${{ inputs.force_all }}
+        run: |
+          if [ -z "${GEMINI_API_KEY:-}" ]; then
+            echo "::error::Secret GEMINI_API_KEY (or GEMINIAPI) is not configured."
+            exit 1
+          fi
+
+          ARGS=(--summary-path "$GITHUB_STEP_SUMMARY" --pr-body-path "${{ runner.temp }}/pr_body.md")
+          if [ -n "$INPUT_TARGET_ID" ]; then
+            ARGS+=(--target-id "$INPUT_TARGET_ID")
+          fi
+          if [ "$INPUT_FORCE_ALL" = "true" ]; then
+            ARGS+=(--force-all)
+          fi
+
+          python3 scripts/update_beaver_boards.py "${ARGS[@]}"
+          echo "TODAY_JST=$(TZ=Asia/Tokyo date +%Y-%m-%d)" >> "$GITHUB_ENV"
+
+      - name: Check for beaver JSON changes
+        id: git-diff
+        run: |
+          if [ -n "$(git status --porcelain -- beaver/motherboard_master.json beaver/meta.json)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create Pull Request
+        if: steps.git-diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore(beaver): マザーボードマスターデータ更新 (${{ env.TODAY_JST }})"
+          title: "chore(beaver): マザーボードマスターデータ更新 (${{ env.TODAY_JST }})"
+          body-path: ${{ runner.temp }}/pr_body.md
+          branch: chore/update-beaver-boards
+          delete-branch: true
+          add-paths: |
+            beaver/motherboard_master.json
+            beaver/meta.json
+          labels: |
+            master-data
+            automated

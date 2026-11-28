@@ -1,0 +1,26 @@
+[
+  {
+    "id": "asus-rog-strix-b650e-f-gaming-wifi",
+    "maker": "ASUS",
+    "model": "ROG STRIX B650E-F GAMING WIFI",
+    "spec_url": "https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+    "is_premium": true,
+    "raw_spec_text": ""
+  },
+  {
+    "id": "msi-pro-b650m-a-wifi",
+    "maker": "MSI",
+    "model": "PRO B650M-A WIFI",
+    "spec_url": "https://jp.msi.com/Motherboard/PRO-B650M-A-WIFI/Specification",
+    "is_premium": true,
+    "raw_spec_text": ""
+  },
+  {
+    "id": "asrock-b650i-lightning-wifi",
+    "maker": "ASRock",
+    "model": "B650I Lightning WiFi",
+    "spec_url": "https://pg.asrock.com/mb/AMD/B650I%20Lightning%20WiFi/index.jp.asp#Specification",
+    "is_premium": true,
+    "raw_spec_text": ""
+  }
+]

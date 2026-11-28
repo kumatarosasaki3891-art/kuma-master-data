@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-28T06:00:00Z",
+  "meta": {
+    "app": "EasyCustomPC",
+    "schema_version": 1,
+    "updated_at": "2026-11-28T15:00:00+09:00",
+    "template_count": 3
+  },
+  "boards": [
+    {
+      "id": "asus-rog-strix-b650e-f-gaming-wifi",
+      "maker": "ASUS",
+      "model": "ROG STRIX B650E-F GAMING WIFI",
+      "display_name": "ASUS ROG STRIX B650E-F GAMING WIFI",
+      "form_factor": "ATX",
+      "width_mm": 305,
+      "height_mm": 244,
+      "socket": "AM5",
+      "chipset": "B650E",
+      "memory_type": "DDR5",
+      "is_premium": true,
+      "slots": {
+        "cpu_socket": 1,
+        "cpu_8pin": 2,
+        "atx_24pin": 1,
+        "dimm": 4,
+        "pcie_x16": 2,
+        "pcie_x1": 1,
+        "m2": 3,
+        "sata": 4
+      },
+      "source_url": "https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+      "updated_at": "2026-11-28"
+    },
+    {
+      "id": "msi-pro-b650m-a-wifi",
+      "maker": "MSI",
+      "model": "PRO B650M-A WIFI",
+      "display_name": "MSI PRO B650M-A WIFI",
+      "form_factor": "Micro-ATX",
+      "width_mm": 244,
+      "height_mm": 244,
+      "socket": "AM5",
+      "chipset": "B650",
+      "memory_type": "DDR5",
+      "is_premium": true,
+      "slots": {
+        "cpu_socket": 1,
+        "cpu_8pin": 2,
+        "atx_24pin": 1,
+        "dimm": 4,
+        "pcie_x16": 2,
+        "pcie_x1": 1,
+        "m2": 2,
+        "sata": 4
+      },
+      "source_url": "https://jp.msi.com/Motherboard/PRO-B650M-A-WIFI/Specification",
+      "updated_at": "2026-11-28"
+    },
+    {
+      "id": "asrock-b650i-lightning-wifi",
+      "maker": "ASRock",
+      "model": "B650I Lightning WiFi",
+      "display_name": "ASRock B650I Lightning WiFi",
+      "form_factor": "Mini-ITX",
+      "width_mm": 170,
+      "height_mm": 170,
+      "socket": "AM5",
+      "chipset": "B650",
+      "memory_type": "DDR5",
+      "is_premium": true,
+      "slots": {
+        "cpu_socket": 1,
+        "cpu_8pin": 1,
+        "atx_24pin": 1,
+        "dimm": 2,
+        "pcie_x16": 1,
+        "pcie_x1": 0,
+        "m2": 2,
+        "sata": 2
+      },
+      "source_url": "https://pg.asrock.com/mb/AMD/B650I%20Lightning%20WiFi/index.jp.asp#Specification",
+      "updated_at": "2026-11-28"
+    }
+  ]
+}
